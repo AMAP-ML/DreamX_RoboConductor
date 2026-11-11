@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "id": "synthetic-sim-001", "backend": "robotwin", "task": "synthetic_shape",
+  "instruction": "Invented schema example. No observation or robot execution occurred.",
+  "turns": 0, "command_steps": 0, "counted": false, "success": null,
+  "public_summary": "Synthetic interface fixture only.",
+  "manual": {"text": "# Synthetic example\nThis is a schema demonstration, not a task-execution manual.", "media": []},
+  "warnings": ["Synthetic example; no experiment was performed."],
+  "steps": [{"turn": 0, "event": "synthetic_example", "images": {}, "done": false, "success": null}]
+}

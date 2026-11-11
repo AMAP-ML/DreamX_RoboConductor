@@ -1,0 +1,94 @@
+{
+  "reportTitle": "RoboConductor: Specify the Task, Let the Coding Agent Control the Robot",
+  "reportVersion": "0.2",
+  "reportDate": "2026-10-25",
+  "pdfSha256": "551351657ed7b796fd2a199797c481da910dfc74ee328536f6dda781de2da6d8",
+  "methodPages": [
+    1,
+    4,
+    5,
+    6,
+    7
+  ],
+  "diagramAssets": [
+    {
+      "asset": "media/method/system-overview.svg",
+      "page": 5,
+      "crop": [
+        79,
+        68,
+        533,
+        407
+      ],
+      "sha256": "e58dd6e0669ba40ad81b1759c6578449ab99cfeb71af4598233c77b08b7c7900"
+    },
+    {
+      "asset": "media/method/test-lift-verification.png",
+      "page": 10,
+      "crop": [
+        70,
+        428,
+        306,
+        557
+      ],
+      "sha256": "6f3ae61db329c65f906486429ba2f2066c7f86287dccad2ebbab9facd8c7d238"
+    }
+  ],
+  "behaviorFrames": [
+    {
+      "asset": "media/method/pen-49.png",
+      "recordId": "piper-eval-20261019-205241-f03708",
+      "archiveId": "aa056f17e7c2a8f9fc6a",
+      "turn": 49,
+      "camera": "right_camera",
+      "source": "archive/episodes/real-world/put_pen/aa056f17e7c2a8f9fc6a/frames/0049_right_camera.png",
+      "sha256": "c8893925323aca209e77e7fd6a716caa2283cc5c80771379fc85508bf3deb846"
+    },
+    {
+      "asset": "media/method/pen-69.png",
+      "recordId": "piper-eval-20261019-205241-f03708",
+      "archiveId": "aa056f17e7c2a8f9fc6a",
+      "turn": 69,
+      "camera": "right_camera",
+      "source": "archive/episodes/real-world/put_pen/aa056f17e7c2a8f9fc6a/frames/0069_right_camera.png",
+      "sha256": "9962f20186571ca0ce4ed5f2e38434c0c5fcb6ff1a40c2bc6251b9e3212e2aa5"
+    },
+    {
+      "asset": "media/method/pen-103.png",
+      "recordId": "piper-eval-20261019-205241-f03708",
+      "archiveId": "aa056f17e7c2a8f9fc6a",
+      "turn": 103,
+      "camera": "head_camera",
+      "source": "archive/episodes/real-world/put_pen/aa056f17e7c2a8f9fc6a/frames/0103_head_camera.png",
+      "sha256": "2af03343ea65e927d5fb5f8995bc373fae709f21dd27eba07403f41e4ea21a22"
+    },
+    {
+      "asset": "media/method/phone-55.png",
+      "recordId": "piper-eval-20261022-133455-a8cbe1",
+      "archiveId": "ff4e4e8e57e218d00589",
+      "turn": 55,
+      "camera": "head_camera",
+      "source": "archive/episodes/real-world/put_phone/ff4e4e8e57e218d00589/frames/0055_head_camera.png",
+      "sha256": "dc1dda25427f8a09a78ac19037f4f0c400b99a8620b6e232572a04d29c958d79"
+    },
+    {
+      "asset": "media/method/phone-68.png",
+      "recordId": "piper-eval-20261022-133455-a8cbe1",
+      "archiveId": "ff4e4e8e57e218d00589",
+      "turn": 68,
+      "camera": "head_camera",
+      "source": "archive/episodes/real-world/put_phone/ff4e4e8e57e218d00589/frames/0068_head_camera.png",
+      "sha256": "e71a7788736e4e08e2d6696b481047fb845436568bfcea033afb181da1a9beac"
+    },
+    {
+      "asset": "media/method/phone-96.png",
+      "recordId": "piper-eval-20261022-133455-a8cbe1",
+      "archiveId": "ff4e4e8e57e218d00589",
+      "turn": 96,
+      "camera": "head_camera",
+      "source": "archive/episodes/real-world/put_phone/ff4e4e8e57e218d00589/frames/0096_head_camera.png",
+      "sha256": "f481c04e3ec9a6760f86816eba6a5f01cad813875eff5763256b6624694c5061"
+    }
+  ],
+  "note": "Figure 2 is presented using the corresponding prepared archive frames."
+}

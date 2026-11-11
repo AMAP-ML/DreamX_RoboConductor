@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Standalone synthetic episode demo",
+  "type": "object", "required": ["synthetic", "episodes"], "additionalProperties": false,
+  "properties": {
+    "synthetic": {"const": true}, "description": {"type": "string"},
+    "episodes": {"type": "array", "minItems": 1, "items": {
+      "type": "object", "required": ["id", "synthetic", "title", "category", "outcome", "summary", "steps"], "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "minLength": 1}, "synthetic": {"const": true},
+        "title": {"type": "string"}, "category": {"enum": ["arrangement", "inspection"]},
+        "outcome": {"type": "string"}, "summary": {"type": "string"},
+        "steps": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["title", "detail"], "additionalProperties": false, "properties": {"title": {"type": "string"}, "detail": {"type": "string"}}}}
+      }
+    }}
+  }
+}

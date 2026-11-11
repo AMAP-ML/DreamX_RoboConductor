@@ -1,0 +1,44 @@
+[
+  {
+    "id": "741b3424896812a02b42",
+    "task": "adjust_bottle",
+    "title": "Adjust the Bottle",
+    "video": "media/sim-adjust_bottle.mp4",
+    "poster": "media/sim-adjust_bottle.jpg"
+  },
+  {
+    "id": "0a603c45f6b4f7646345",
+    "task": "beat_block_hammer",
+    "title": "Hammer the Block",
+    "video": "media/sim-beat_block_hammer.mp4",
+    "poster": "media/sim-beat_block_hammer.jpg"
+  },
+  {
+    "id": "fa421055159142835003",
+    "task": "open_microwave",
+    "title": "Open the Microwave",
+    "video": "media/sim-open_microwave.mp4",
+    "poster": "media/sim-open_microwave.jpg"
+  },
+  {
+    "id": "a5c5236c00c615c7fafd",
+    "task": "handover_mic",
+    "title": "Pass the Microphone",
+    "video": "media/sim-handover_mic.mp4",
+    "poster": "media/sim-handover_mic.jpg"
+  },
+  {
+    "id": "8be5750a54d84da3028e",
+    "task": "hanging_mug",
+    "title": "Hang the Mug",
+    "video": "media/sim-hanging_mug.mp4",
+    "poster": "media/sim-hanging_mug.jpg"
+  },
+  {
+    "id": "3e15c4e8f78740d37171",
+    "task": "stack_blocks_three",
+    "title": "Stack Three Blocks",
+    "video": "media/sim-stack_blocks_three.mp4",
+    "poster": "media/sim-stack_blocks_three.jpg"
+  }
+]

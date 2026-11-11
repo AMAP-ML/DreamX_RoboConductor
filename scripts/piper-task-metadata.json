@@ -1,0 +1,50 @@
+{
+  "discard_blackboard_eraser": {
+    "titleEn": "Discard eraser",
+    "instructionEn": "Pick up the blackboard eraser and put it in the trash bin.",
+    "title": "Discard eraser"
+  },
+  "empty_cup": {
+    "titleEn": "Empty cup",
+    "instructionEn": "Empty the contents of the cup into the red box.",
+    "title": "Empty cup"
+  },
+  "hang_cup": {
+    "titleEn": "Hang cup",
+    "instructionEn": "Hang the cup on the rack.",
+    "title": "Hang cup"
+  },
+  "place_gum_bottle": {
+    "titleEn": "Place gum bottle",
+    "instructionEn": "Place the gum bottle on the red card.",
+    "title": "Place gum bottle"
+  },
+  "stack_three_bowls": {
+    "titleEn": "Stack three bowls",
+    "instructionEn": "Stack the three bowls on the table.",
+    "title": "Stack three bowls"
+  },
+  "lift_bottle": {
+    "title": "Lift bottle",
+    "titleEn": "Lift bottle",
+    "instructionEn": "Grasp the bottle on the table and lift it."
+  },
+  "place_orange": {
+    "title": "Place orange",
+    "titleEn": "Place orange",
+    "instructionEn": "Pick up the green orange and place it in the bowl."
+  },
+  "pour_water": {
+    "title": "Pour water",
+    "titleEn": "Pour water",
+    "instructionEn": "Pour all the water from the left bowl into the right bowl."
+  },
+  "put_pen": {
+    "title": "Place pen in holder",
+    "titleEn": "Place pen in holder"
+  },
+  "put_phone": {
+    "title": "Place phone on stand",
+    "titleEn": "Place phone on stand"
+  }
+}

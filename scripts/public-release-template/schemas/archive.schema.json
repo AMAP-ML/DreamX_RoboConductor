@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Archive catalog or episode structural contract",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "platforms"
+      ],
+      "properties": {
+        "platforms": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "kind",
+              "summary",
+              "tasks"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "simulation",
+                  "physical"
+                ]
+              },
+              "tasks": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "name",
+                    "summary",
+                    "episodes"
+                  ],
+                  "properties": {
+                    "episodes": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id",
+                          "backend",
+                          "task",
+                          "data_file"
+                        ],
+                        "properties": {
+                          "data_file": {
+                            "type": "string",
+                            "pattern": "^episodes/[a-zA-Z0-9_-]+/data\\.js$"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "id",
+        "backend",
+        "task",
+        "instruction",
+        "manual",
+        "steps"
+      ],
+      "properties": {
+        "manual": {
+          "type": "object",
+          "required": [
+            "text"
+          ],
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "media": {
+              "type": "array"
+            }
+          }
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "turn",
+              "event",
+              "images"
+            ],
+            "properties": {
+              "images": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "synthetic": true,
+  "platforms": [{
+    "id": "robotwin", "name": "Synthetic interface fixture", "kind": "simulation",
+    "summary": {"episodes": 1, "successes": 0, "failures": 0, "counted": 0, "unscored": 1, "unknown": 0},
+    "tasks": [{
+      "id": "synthetic_shape", "name": "synthetic_shape", "backend": "robotwin",
+      "summary": {"episodes": 1, "successes": 0, "failures": 0, "counted": 0, "unscored": 1, "unknown": 0},
+      "episodes": [{"id": "synthetic-sim-001", "backend": "robotwin", "task": "synthetic_shape", "episode_index": 0, "counted": false, "success": null, "success_available": false, "data_file": "episodes/synthetic-sim-001/data.js"}]
+    }]
+  }]
+}

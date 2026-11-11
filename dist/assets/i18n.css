@@ -1,0 +1,14 @@
+.language-switch{display:flex;flex:0 0 auto;align-items:center;gap:2px;padding:3px;border:1px solid var(--line,#d7ded6);border-radius:8px;background:rgba(255,255,255,.6)}
+.language-switch button{border:0;background:transparent;color:var(--forest,#174f43);font:600 14px/1.3 var(--sans,Arial,sans-serif);padding:7px 9px;border-radius:5px;cursor:pointer;white-space:nowrap}
+.language-switch button[aria-pressed=true]{background:var(--forest,#174f43);color:#fff}
+.language-switch button:focus-visible{outline:2px solid var(--amber,#b77c30);outline-offset:3px}
+.nav-inner nav{min-width:0;flex:1;justify-content:flex-end;font-size:14px}.nav-inner{gap:20px}
+html[lang=zh-CN] body{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif}
+html[lang=zh-CN] .section-head h2,html[lang=zh-CN] .method-abstract h3,html[lang=zh-CN] .platform-hero h2,html[lang=zh-CN] .episode-heading h1{font-family:"Iowan Old Style","Songti SC","SimSun",serif;letter-spacing:0;line-height:1.3}
+html[lang=zh-CN] .hero h1{letter-spacing:-2px}
+html[lang=zh-CN] .hero-statement,html[lang=zh-CN] .method-abstract p{line-height:1.85}
+[data-lang-only][hidden]{display:none!important}
+.hero .eyebrow{font-size:14px;line-height:1.5;letter-spacing:1.6px}
+.section .kicker{font-size:22px;line-height:1.35;font-weight:800;letter-spacing:1.5px}
+@media(max-width:1000px){.nav-inner{gap:14px}.nav-inner nav{gap:16px;overflow-x:auto;justify-content:flex-start}.nav-inner nav a{flex-shrink:0}}
+@media(max-width:760px){.nav-inner{padding-left:14px;padding-right:14px;gap:10px}.nav-inner nav{max-width:none;min-width:0;flex:1;gap:14px;overflow-x:auto;white-space:nowrap}.nav-inner .brand{flex:0 0 auto;font-size:13px;gap:6px}.nav-inner .brand-mark{width:24px;height:24px}.language-switch{padding:2px;gap:0}.language-switch button{padding:7px 6px;font-size:13px}.hero .eyebrow{font-size:13px;letter-spacing:1.3px}.section .kicker{font-size:20px;letter-spacing:1.2px}}

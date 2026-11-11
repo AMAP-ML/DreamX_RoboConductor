@@ -1,0 +1,19 @@
+{
+  "synthetic": true,
+  "updatedAt": "Synthetic fixture — not an experiment date",
+  "simulation": {
+    "taskCount": 1, "trials": 1, "successes": 0, "perfectTasks": 0,
+    "turns": {"successMedian": 0},
+    "tasks": [{"id": "synthetic_shape", "name": "Synthetic Shape", "trials": 1, "successes": 0, "outcomes": [{"id": "synthetic-sim-001", "seed": 0, "turns": 0, "success": false}]}],
+    "featured": [{"id": "synthetic-sim-001", "task": "synthetic_shape", "title": "Synthetic Shape", "video": "", "poster": "", "seed": 0, "turns": 0, "taskSuccesses": 0, "taskTrials": 1}]
+  },
+  "real": {
+    "taskCount": 1, "plannedTaskCount": 1, "trials": 1, "confirmedTrials": 0, "successes": 0,
+    "tasks": [{"id": "synthetic_inspection", "title": "Synthetic Inspection", "instructionEn": "An invented interface example; no physical execution.", "episodes": [{"id": "synthetic-physical-001", "archiveId": "synthetic-physical-001", "scene": 1, "outcome": "unlabelled", "video": "", "poster": "", "turns": 0}]}]
+  },
+  "walkthrough": {
+    "id": "synthetic-sim-001", "task": "synthetic_shape", "seed": 0,
+    "manual": {"task": [["Example", "Invented schema fixture only"]], "tips": ["No robot commands or observations are included."]},
+    "steps": [{"turn": 0, "event": "synthetic_example", "frames": {"head": "", "wrist": ""}, "commands": [], "results": [], "done": false, "success": null}]
+  }
+}

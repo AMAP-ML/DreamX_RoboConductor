@@ -1,0 +1,408 @@
+{
+  "kind": "real-world",
+  "backend": "piper",
+  "episode_count": 50,
+  "task_count": 10,
+  "tasks": [
+    {
+      "task": "discard_blackboard_eraser",
+      "episodes": [
+        {
+          "id": "c0a8263451cd9b62e805",
+          "record": "discard_blackboard_eraser/c0a8263451cd9b62e805/data.js",
+          "scene": "001",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "84bece9249ab88129df1",
+          "record": "discard_blackboard_eraser/84bece9249ab88129df1/data.js",
+          "scene": "002",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "890092efb838a5d8777b",
+          "record": "discard_blackboard_eraser/890092efb838a5d8777b/data.js",
+          "scene": "003",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "afefc1095e0f32e9f1ac",
+          "record": "discard_blackboard_eraser/afefc1095e0f32e9f1ac/data.js",
+          "scene": "004",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "fa990813ef69c49d1176",
+          "record": "discard_blackboard_eraser/fa990813ef69c49d1176/data.js",
+          "scene": "005",
+          "seed": null,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "empty_cup",
+      "episodes": [
+        {
+          "id": "9f74c1bac3c2f338d12f",
+          "record": "empty_cup/9f74c1bac3c2f338d12f/data.js",
+          "scene": "001",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "f381536332c5cfee2f7a",
+          "record": "empty_cup/f381536332c5cfee2f7a/data.js",
+          "scene": "002",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "1899eb23a2a5ac154bfa",
+          "record": "empty_cup/1899eb23a2a5ac154bfa/data.js",
+          "scene": "003",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "589e68c908fe5105d500",
+          "record": "empty_cup/589e68c908fe5105d500/data.js",
+          "scene": "004",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "3e14a85dd49765d83cd3",
+          "record": "empty_cup/3e14a85dd49765d83cd3/data.js",
+          "scene": "005",
+          "seed": null,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "hang_cup",
+      "episodes": [
+        {
+          "id": "25c81ed8da59f37f2d09",
+          "record": "hang_cup/25c81ed8da59f37f2d09/data.js",
+          "scene": "001",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "1ae91719c6e70587fed7",
+          "record": "hang_cup/1ae91719c6e70587fed7/data.js",
+          "scene": "002",
+          "seed": null,
+          "success": false
+        },
+        {
+          "id": "ff80ab0a6dd4fd688ca5",
+          "record": "hang_cup/ff80ab0a6dd4fd688ca5/data.js",
+          "scene": "003",
+          "seed": null,
+          "success": false
+        },
+        {
+          "id": "bb714b6e66e00c7e4caf",
+          "record": "hang_cup/bb714b6e66e00c7e4caf/data.js",
+          "scene": "004",
+          "seed": null,
+          "success": false
+        },
+        {
+          "id": "83459eef02009dd83401",
+          "record": "hang_cup/83459eef02009dd83401/data.js",
+          "scene": "005",
+          "seed": null,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "lift_bottle",
+      "episodes": [
+        {
+          "id": "10b7c65b28055d99bbe6",
+          "record": "lift_bottle/10b7c65b28055d99bbe6/data.js",
+          "scene": "001",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "8b65b04526a6079bd6b4",
+          "record": "lift_bottle/8b65b04526a6079bd6b4/data.js",
+          "scene": "002",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "97d26aa079ae451364d7",
+          "record": "lift_bottle/97d26aa079ae451364d7/data.js",
+          "scene": "003",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "a49369b4e85d4f206bf9",
+          "record": "lift_bottle/a49369b4e85d4f206bf9/data.js",
+          "scene": "004",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "4ab8a5460c8cb330a716",
+          "record": "lift_bottle/4ab8a5460c8cb330a716/data.js",
+          "scene": "005",
+          "seed": null,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_gum_bottle",
+      "episodes": [
+        {
+          "id": "e50d6a6b254ca6690f88",
+          "record": "place_gum_bottle/e50d6a6b254ca6690f88/data.js",
+          "scene": "001",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "23fc085526e051a6895a",
+          "record": "place_gum_bottle/23fc085526e051a6895a/data.js",
+          "scene": "002",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "ab22c2f99e16c5fbc5f6",
+          "record": "place_gum_bottle/ab22c2f99e16c5fbc5f6/data.js",
+          "scene": "003",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "8ce140c0034c85bd55cc",
+          "record": "place_gum_bottle/8ce140c0034c85bd55cc/data.js",
+          "scene": "004",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "9d7647344d851a094c1f",
+          "record": "place_gum_bottle/9d7647344d851a094c1f/data.js",
+          "scene": "005",
+          "seed": null,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_orange",
+      "episodes": [
+        {
+          "id": "605c70f030f32fbe9fd8",
+          "record": "place_orange/605c70f030f32fbe9fd8/data.js",
+          "scene": "001",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "25c2109bd07771b4abba",
+          "record": "place_orange/25c2109bd07771b4abba/data.js",
+          "scene": "002",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "91c720aeca059b892561",
+          "record": "place_orange/91c720aeca059b892561/data.js",
+          "scene": "003",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "51ba7565d7eed290352e",
+          "record": "place_orange/51ba7565d7eed290352e/data.js",
+          "scene": "004",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "6c1e498575dfa358e2b6",
+          "record": "place_orange/6c1e498575dfa358e2b6/data.js",
+          "scene": "005",
+          "seed": null,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "pour_water",
+      "episodes": [
+        {
+          "id": "b73ecee532a138d8f716",
+          "record": "pour_water/b73ecee532a138d8f716/data.js",
+          "scene": "001",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "56486abb1772c6865a96",
+          "record": "pour_water/56486abb1772c6865a96/data.js",
+          "scene": "002",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "ec3b48e076ec16f6b17f",
+          "record": "pour_water/ec3b48e076ec16f6b17f/data.js",
+          "scene": "003",
+          "seed": null,
+          "success": false
+        },
+        {
+          "id": "b68805af428bfde809a0",
+          "record": "pour_water/b68805af428bfde809a0/data.js",
+          "scene": "004",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "b8138fc6d4aa3bc5d8b4",
+          "record": "pour_water/b8138fc6d4aa3bc5d8b4/data.js",
+          "scene": "005",
+          "seed": null,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "put_pen",
+      "episodes": [
+        {
+          "id": "6ca0521f2f087a02c6de",
+          "record": "put_pen/6ca0521f2f087a02c6de/data.js",
+          "scene": "001",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "97e94ffd19ceb5ba012b",
+          "record": "put_pen/97e94ffd19ceb5ba012b/data.js",
+          "scene": "002",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "aa056f17e7c2a8f9fc6a",
+          "record": "put_pen/aa056f17e7c2a8f9fc6a/data.js",
+          "scene": "003",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "9055ea788d6677cdc7d8",
+          "record": "put_pen/9055ea788d6677cdc7d8/data.js",
+          "scene": "004",
+          "seed": null,
+          "success": false
+        },
+        {
+          "id": "06627336cfe785b59a24",
+          "record": "put_pen/06627336cfe785b59a24/data.js",
+          "scene": "005",
+          "seed": null,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "put_phone",
+      "episodes": [
+        {
+          "id": "a19de066ff5ffd71f42a",
+          "record": "put_phone/a19de066ff5ffd71f42a/data.js",
+          "scene": "001",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "0ed3fd3d2fd16731877a",
+          "record": "put_phone/0ed3fd3d2fd16731877a/data.js",
+          "scene": "002",
+          "seed": null,
+          "success": false
+        },
+        {
+          "id": "fd29c48f1af70f1bf945",
+          "record": "put_phone/fd29c48f1af70f1bf945/data.js",
+          "scene": "003",
+          "seed": null,
+          "success": false
+        },
+        {
+          "id": "ff4e4e8e57e218d00589",
+          "record": "put_phone/ff4e4e8e57e218d00589/data.js",
+          "scene": "004",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "965e8883e10e6f408af1",
+          "record": "put_phone/965e8883e10e6f408af1/data.js",
+          "scene": "005",
+          "seed": null,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "stack_three_bowls",
+      "episodes": [
+        {
+          "id": "761c70cb28dc630209ab",
+          "record": "stack_three_bowls/761c70cb28dc630209ab/data.js",
+          "scene": "001",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "0aebb2da3279be73d159",
+          "record": "stack_three_bowls/0aebb2da3279be73d159/data.js",
+          "scene": "002",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "6fc99811137361f0690f",
+          "record": "stack_three_bowls/6fc99811137361f0690f/data.js",
+          "scene": "003",
+          "seed": null,
+          "success": true
+        },
+        {
+          "id": "6bf79a42f571b2b2e340",
+          "record": "stack_three_bowls/6bf79a42f571b2b2e340/data.js",
+          "scene": "004",
+          "seed": null,
+          "success": false
+        },
+        {
+          "id": "bff19a61785144a4fc4f",
+          "record": "stack_three_bowls/bff19a61785144a4fc4f/data.js",
+          "scene": "005",
+          "seed": null,
+          "success": true
+        }
+      ]
+    }
+  ]
+}

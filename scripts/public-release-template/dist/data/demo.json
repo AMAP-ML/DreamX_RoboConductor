@@ -1,0 +1,44 @@
+{
+  "synthetic": true,
+  "description": "Invented interface fixtures. These are not experiment results, robot recordings, or operational logs.",
+  "episodes": [
+    {
+      "id": "EXAMPLE-001",
+      "synthetic": true,
+      "title": "Arrange a green block",
+      "category": "arrangement",
+      "outcome": "complete",
+      "summary": "An invented three-step example of moving a geometric block into a marked area.",
+      "steps": [
+        {"title": "Inspect the illustration", "detail": "The fictional scene contains one green block and one outlined target."},
+        {"title": "Choose the target area", "detail": "This example describes an intended placement. No physical action is performed."},
+        {"title": "Mark the example complete", "detail": "The completion label is fixture data used to demonstrate the interface."}
+      ]
+    },
+    {
+      "id": "EXAMPLE-002",
+      "synthetic": true,
+      "title": "Inspect a patterned tile",
+      "category": "inspection",
+      "outcome": "needs review",
+      "summary": "A fictional inspection remains unresolved to demonstrate a review state.",
+      "steps": [
+        {"title": "Read the example description", "detail": "The imaginary tile has a pattern that this fixture deliberately leaves unspecified."},
+        {"title": "Request a closer look", "detail": "The example ends with a needs-review label. There is no captured observation behind this entry."}
+      ]
+    },
+    {
+      "id": "EXAMPLE-003",
+      "synthetic": true,
+      "title": "Group two shapes",
+      "category": "arrangement",
+      "outcome": "incomplete",
+      "summary": "An invented sequence stops before the second shape is arranged.",
+      "steps": [
+        {"title": "Identify two imaginary shapes", "detail": "The example uses a circle and a square as a simple interface-writing exercise."},
+        {"title": "Describe the first placement", "detail": "Only one placement is described; the second is left unfinished in this fixture."},
+        {"title": "Show the incomplete state", "detail": "This label demonstrates presentation of an unfinished example, not a measured failure."}
+      ]
+    }
+  ]
+}

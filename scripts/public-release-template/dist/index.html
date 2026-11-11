@@ -1,0 +1,46 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: LicenseRef-DreamX-RoboConductor-NonCommercial -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A standalone episode-browser code demo with example episodes.">
+  <title>DreamX-RoboConductor · Synthetic demo</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/demo.css">
+  <script src="assets/demo.js" defer></script>
+</head>
+<body>
+  <header class="site-header wrap">
+    <a href="#" class="wordmark">DreamX-RoboConductor<span>SHOWCASE</span></a>
+    <nav aria-label="Main navigation"><a href="#episodes">Explore examples</a><a href="#about">About this demo</a></nav>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow"><span class="dot"></span> OPEN CODE · EXAMPLE EPISODES</p>
+        <h1 id="hero-title">A clear view of<br>every step.</h1>
+        <p class="lede">A small, self-contained interface for exploring episodes and their steps. Start with three invented examples, then make it your own.</p>
+        <a class="primary-link" href="#episodes">Explore the demo <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="scene" role="img" aria-label="Abstract illustration of a block, a target, and a path. ">
+        <span class="scene-label">EPISODE PREVIEW</span>
+        <div class="scene-grid"></div><div class="target"></div><div class="route"></div><div class="block"></div>
+        <span class="scene-caption">Observe. Arrange. Inspect.</span>
+      </div>
+    </section>
+
+    <section id="episodes" aria-labelledby="episodes-title">
+      <div class="section-heading"><div><p class="eyebrow">THE EXAMPLE COLLECTION</p><h2 id="episodes-title">Explore the episodes</h2></div><p id="episode-count" aria-live="polite">Loading examples…</p></div>
+      <div class="filters">
+        <label>Search examples<input id="search" type="search" placeholder="Search a title or description"></label>
+        <label>Category<select id="category"><option value="all">All categories</option><option value="arrangement">Arrangement</option><option value="inspection">Inspection</option></select></label>
+      </div>
+      <div class="collection"><div id="episode-list" class="episode-list" aria-label="Example episodes"></div><article id="episode-detail" class="episode-detail" aria-live="polite"><p>Select an example to view its steps.</p></article></div>
+      <p id="load-error" role="alert" hidden>Example data could not be loaded. Start the included Python server and reload this page.</p>
+    </section>
+    <section id="about" class="about" aria-labelledby="about-title"><div><p class="eyebrow">A SMALL STARTING POINT</p><h2 id="about-title">Run it. Read it.<br>Build on it.</h2></div><div><p>Built with HTML, CSS, JavaScript, and a Python standard-library server.</p><p>Edit the example data, add your episodes, and adapt the interface to your project.</p></div></section>
+  </main>
+  <footer class="wrap"><span>DreamX-RoboConductor Showcase</span><span>Non-commercial research &amp; personal use · Invented example data</span></footer>
+</body>
+</html>

@@ -1,0 +1,210 @@
+{
+  "benchmark": "RoboTwin 2.0 C2R",
+  "metric": "Success rate (%)",
+  "taskCount": 50,
+  "axis": [
+    0,
+    100
+  ],
+  "source": {
+    "title": "RoboConductor: Specify the Task, Let the Coding Agent Control the Robot",
+    "version": "0.2",
+    "date": "2026-10-25",
+    "table": 3,
+    "page": 8,
+    "officialSnapshotDate": "2026-10-24",
+    "pdfSha256": "551351657ed7b796fd2a199797c481da910dfc74ee328536f6dda781de2da6d8"
+  },
+  "groups": {
+    "ours": {
+      "label": "DreamX-RoboConductor",
+      "color": "#174f43"
+    },
+    "direct": {
+      "label": "Direct VLM / coding agent",
+      "color": "#b6905b"
+    },
+    "official": {
+      "label": "Official co-train",
+      "color": "#829ba6"
+    },
+    "agent_vla": {
+      "label": "Agent-steered frozen VLA",
+      "color": "#82a394"
+    },
+    "trained": {
+      "label": "Robot-trained policy",
+      "color": "#bdc6bb"
+    }
+  },
+  "notes": [
+    "Table 3 results with the GO-3 Nano Preview Clean → Random result from the 2026-10-25 leaderboard screenshot.",
+    "Full set denotes joint training on 50 tasks with 50 clean demonstrations per task; pretraining data are not counted.",
+    "For direct agent control, 0/1 denotes task demonstrations in context. DreamX-RoboConductor also receives a task manual.",
+    "HarnessVLA uses frozen LingBot-VLA; Full set describes its backbone training data, not agent finetuning.",
+    "RoboDawn and DreamX-RoboConductor use 10 trials per task. CloudRobo-WM and PrismWAM use 100 trials per task.",
+    "PrismWAM* additionally requires observed depth."
+  ],
+  "entries": [
+    {
+      "id": "fastwam",
+      "method": "FastWAM",
+      "group": "trained",
+      "context": "Full set",
+      "successRate": 1.9,
+      "trialsPerTask": null
+    },
+    {
+      "id": "starvla",
+      "method": "StarVLA",
+      "group": "trained",
+      "context": "Full set",
+      "successRate": 10.6,
+      "trialsPerTask": null
+    },
+    {
+      "id": "galaxeavla",
+      "method": "GalaxeaVLA",
+      "group": "trained",
+      "context": "Full set",
+      "successRate": 12.7,
+      "trialsPerTask": null
+    },
+    {
+      "id": "xiaomi",
+      "method": "Xiaomi-Robotics-0",
+      "group": "trained",
+      "context": "Full set",
+      "successRate": 18.2,
+      "trialsPerTask": null
+    },
+    {
+      "id": "groot",
+      "method": "GR00T-1.7",
+      "group": "trained",
+      "context": "Full set",
+      "successRate": 20.7,
+      "trialsPerTask": null
+    },
+    {
+      "id": "xvla",
+      "method": "X-VLA",
+      "group": "trained",
+      "context": "Full set",
+      "successRate": 20.9,
+      "trialsPerTask": null
+    },
+    {
+      "id": "xwam",
+      "method": "X-WAM",
+      "group": "trained",
+      "context": "Full set",
+      "successRate": 25.8,
+      "trialsPerTask": null
+    },
+    {
+      "id": "pi05",
+      "method": "π0.5",
+      "group": "trained",
+      "context": "Full set",
+      "successRate": 46.0,
+      "trialsPerTask": null
+    },
+    {
+      "id": "lingbot",
+      "method": "LingBot-VLA",
+      "group": "trained",
+      "context": "Full set",
+      "successRate": 50.4,
+      "trialsPerTask": null
+    },
+    {
+      "id": "harness-codex",
+      "method": "HarnessVLA (Codex)",
+      "group": "agent_vla",
+      "context": "Full set",
+      "successRate": 58.0,
+      "trialsPerTask": null
+    },
+    {
+      "id": "harness-cc",
+      "method": "HarnessVLA (Claude Code)",
+      "group": "agent_vla",
+      "context": "Full set",
+      "successRate": 58.4,
+      "trialsPerTask": null
+    },
+    {
+      "id": "robodawn-gemini-0",
+      "method": "RoboDawn (Gemini-3.8-Flash)",
+      "group": "direct",
+      "context": "0-shot",
+      "successRate": 47.0,
+      "trialsPerTask": 10
+    },
+    {
+      "id": "robodawn-gemini-1",
+      "method": "RoboDawn (Gemini-3.8-Flash)",
+      "group": "direct",
+      "context": "1-shot",
+      "successRate": 62.2,
+      "trialsPerTask": 10
+    },
+    {
+      "id": "robodawn-astra-0",
+      "method": "RoboDawn (GPT-6 Astra)",
+      "group": "direct",
+      "context": "0-shot",
+      "successRate": 53.2,
+      "trialsPerTask": 10
+    },
+    {
+      "id": "robodawn-astra-1",
+      "method": "RoboDawn (GPT-6 Astra)",
+      "group": "direct",
+      "context": "1-shot",
+      "successRate": 73.6,
+      "trialsPerTask": 10
+    },
+    {
+      "id": "cloudrobo",
+      "method": "CloudRobo-WM",
+      "group": "official",
+      "context": "Full set",
+      "successRate": 75.0,
+      "trialsPerTask": 100
+    },
+    {
+      "id": "prism",
+      "method": "PrismWAM*",
+      "group": "official",
+      "context": "Full set",
+      "successRate": 75.5,
+      "trialsPerTask": 100
+    },
+    {
+      "id": "go3-nano-preview",
+      "method": "GO-3 Nano Preview",
+      "group": "official",
+      "context": "Full set",
+      "successRate": 81.48,
+      "displayPrecision": 1,
+      "trialsPerTask": null,
+      "contributor": "AGIBOT",
+      "track": "Co-train",
+      "source": {
+        "type": "user-provided leaderboard screenshot",
+        "date": "2026-10-25",
+        "metric": "Clean → Random"
+      }
+    },
+    {
+      "id": "roboconductor",
+      "method": "DreamX-RoboConductor (Codex)",
+      "group": "ours",
+      "context": "0-shot",
+      "successRate": 82.2,
+      "trialsPerTask": 10
+    }
+  ]
+}

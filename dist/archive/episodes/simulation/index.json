@@ -1,0 +1,3758 @@
+{
+  "kind": "simulation",
+  "backend": "robotwin",
+  "episode_count": 500,
+  "task_count": 50,
+  "tasks": [
+    {
+      "task": "adjust_bottle",
+      "episodes": [
+        {
+          "id": "741b3424896812a02b42",
+          "record": "adjust_bottle/741b3424896812a02b42/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "7e7d35ecb6f30bdabd60",
+          "record": "adjust_bottle/7e7d35ecb6f30bdabd60/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "2f852024ef12f65ae739",
+          "record": "adjust_bottle/2f852024ef12f65ae739/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "b5a81fb9c50b1a6469f8",
+          "record": "adjust_bottle/b5a81fb9c50b1a6469f8/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "381d06f711404b78bfbb",
+          "record": "adjust_bottle/381d06f711404b78bfbb/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "1ca79c0a1630699ecb1a",
+          "record": "adjust_bottle/1ca79c0a1630699ecb1a/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "9d24876de7578dbca3a4",
+          "record": "adjust_bottle/9d24876de7578dbca3a4/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "6ac31102015f92dcbbbc",
+          "record": "adjust_bottle/6ac31102015f92dcbbbc/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "dbafbde99e244af65cea",
+          "record": "adjust_bottle/dbafbde99e244af65cea/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "10267544cc22080ed48a",
+          "record": "adjust_bottle/10267544cc22080ed48a/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "beat_block_hammer",
+      "episodes": [
+        {
+          "id": "0a603c45f6b4f7646345",
+          "record": "beat_block_hammer/0a603c45f6b4f7646345/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "02f444bb632736143975",
+          "record": "beat_block_hammer/02f444bb632736143975/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "60c34cd1c7373acd2021",
+          "record": "beat_block_hammer/60c34cd1c7373acd2021/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "a8fa7701a436310ab379",
+          "record": "beat_block_hammer/a8fa7701a436310ab379/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "aefd4811fcd916a68a26",
+          "record": "beat_block_hammer/aefd4811fcd916a68a26/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "f34281066de3fcb6b707",
+          "record": "beat_block_hammer/f34281066de3fcb6b707/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "e7fc91c0866cf63bc380",
+          "record": "beat_block_hammer/e7fc91c0866cf63bc380/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "117106f6d26091d5bdaa",
+          "record": "beat_block_hammer/117106f6d26091d5bdaa/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "2b597dc5da648e6a777c",
+          "record": "beat_block_hammer/2b597dc5da648e6a777c/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": false
+        },
+        {
+          "id": "2b08640b0eeb7a2cbba3",
+          "record": "beat_block_hammer/2b08640b0eeb7a2cbba3/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "blocks_ranking_rgb",
+      "episodes": [
+        {
+          "id": "e65561ee643cfbb701f1",
+          "record": "blocks_ranking_rgb/e65561ee643cfbb701f1/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "7f230930af12408f41d6",
+          "record": "blocks_ranking_rgb/7f230930af12408f41d6/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "f877cd8ba685513b9bfc",
+          "record": "blocks_ranking_rgb/f877cd8ba685513b9bfc/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "085d0215d43f23b1f16c",
+          "record": "blocks_ranking_rgb/085d0215d43f23b1f16c/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "42521fc029059bcd6c6a",
+          "record": "blocks_ranking_rgb/42521fc029059bcd6c6a/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "54663666ca7f4f36ed35",
+          "record": "blocks_ranking_rgb/54663666ca7f4f36ed35/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "b30d05f2c0aaa8775926",
+          "record": "blocks_ranking_rgb/b30d05f2c0aaa8775926/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "b7c089c9b87c1ba12db1",
+          "record": "blocks_ranking_rgb/b7c089c9b87c1ba12db1/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "68e438b02168955b5753",
+          "record": "blocks_ranking_rgb/68e438b02168955b5753/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "4b6c4728791ed7c27bb8",
+          "record": "blocks_ranking_rgb/4b6c4728791ed7c27bb8/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "blocks_ranking_size",
+      "episodes": [
+        {
+          "id": "29c0ff7c0eae495f35f6",
+          "record": "blocks_ranking_size/29c0ff7c0eae495f35f6/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "b3f52bc62e72c3955780",
+          "record": "blocks_ranking_size/b3f52bc62e72c3955780/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "84c7e8c798acf80bf2e2",
+          "record": "blocks_ranking_size/84c7e8c798acf80bf2e2/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "ec7b18599364a6eb410a",
+          "record": "blocks_ranking_size/ec7b18599364a6eb410a/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "387a66ed0f1e40bcd35c",
+          "record": "blocks_ranking_size/387a66ed0f1e40bcd35c/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "9e80286f759e99c27f12",
+          "record": "blocks_ranking_size/9e80286f759e99c27f12/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "32037ff665648448c2bc",
+          "record": "blocks_ranking_size/32037ff665648448c2bc/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "935418a69b096c4917ad",
+          "record": "blocks_ranking_size/935418a69b096c4917ad/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "8243a7eb568ddef711f5",
+          "record": "blocks_ranking_size/8243a7eb568ddef711f5/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "1a19137fc5e216ab9075",
+          "record": "blocks_ranking_size/1a19137fc5e216ab9075/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "click_alarmclock",
+      "episodes": [
+        {
+          "id": "a497c3341c125dc6f71f",
+          "record": "click_alarmclock/a497c3341c125dc6f71f/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "e1ff4f839c6b2e1aa6d9",
+          "record": "click_alarmclock/e1ff4f839c6b2e1aa6d9/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "910b8ed2666c46c49bde",
+          "record": "click_alarmclock/910b8ed2666c46c49bde/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "e9424e5e6e09ac67d9c3",
+          "record": "click_alarmclock/e9424e5e6e09ac67d9c3/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "72e11e747e2623302cfb",
+          "record": "click_alarmclock/72e11e747e2623302cfb/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "8aa82bd5a41443d5bedd",
+          "record": "click_alarmclock/8aa82bd5a41443d5bedd/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "id": "c0673a3f6f6aa7b9d76f",
+          "record": "click_alarmclock/c0673a3f6f6aa7b9d76f/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "id": "5474868f65c156c844eb",
+          "record": "click_alarmclock/5474868f65c156c844eb/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "387651842e36f2123991",
+          "record": "click_alarmclock/387651842e36f2123991/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "6e46ee49cc388fb3ea4b",
+          "record": "click_alarmclock/6e46ee49cc388fb3ea4b/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "click_bell",
+      "episodes": [
+        {
+          "id": "e0ec2d54bab8d7734437",
+          "record": "click_bell/e0ec2d54bab8d7734437/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "fb8119d53cd1c21f7b12",
+          "record": "click_bell/fb8119d53cd1c21f7b12/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "1ca69aff44c2a808db8c",
+          "record": "click_bell/1ca69aff44c2a808db8c/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "b8dc169e42b84e6e1b60",
+          "record": "click_bell/b8dc169e42b84e6e1b60/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "c7e8663063f01124657d",
+          "record": "click_bell/c7e8663063f01124657d/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "7734e57901ae77a19d7e",
+          "record": "click_bell/7734e57901ae77a19d7e/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "dccef6ef2cf9e0b3c0fe",
+          "record": "click_bell/dccef6ef2cf9e0b3c0fe/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "392762cd257b75d2a0de",
+          "record": "click_bell/392762cd257b75d2a0de/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "2c2298cda3a405e12968",
+          "record": "click_bell/2c2298cda3a405e12968/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "fc8e736d3838cd5404db",
+          "record": "click_bell/fc8e736d3838cd5404db/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "episodes": [
+        {
+          "id": "b1716792773c2d3f1cfc",
+          "record": "dump_bin_bigbin/b1716792773c2d3f1cfc/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "f98c26cea142f07edcc2",
+          "record": "dump_bin_bigbin/f98c26cea142f07edcc2/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "id": "387d5b5aedc80024e16f",
+          "record": "dump_bin_bigbin/387d5b5aedc80024e16f/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        },
+        {
+          "id": "5a64b194b6603db011f3",
+          "record": "dump_bin_bigbin/5a64b194b6603db011f3/data.js",
+          "scene": null,
+          "seed": 100017,
+          "success": true
+        },
+        {
+          "id": "009ec711fefde040d869",
+          "record": "dump_bin_bigbin/009ec711fefde040d869/data.js",
+          "scene": null,
+          "seed": 100019,
+          "success": false
+        },
+        {
+          "id": "003b4750989aaf4db5a6",
+          "record": "dump_bin_bigbin/003b4750989aaf4db5a6/data.js",
+          "scene": null,
+          "seed": 100020,
+          "success": true
+        },
+        {
+          "id": "efc7913d59e38c566847",
+          "record": "dump_bin_bigbin/efc7913d59e38c566847/data.js",
+          "scene": null,
+          "seed": 100021,
+          "success": true
+        },
+        {
+          "id": "62fa685025556efbf951",
+          "record": "dump_bin_bigbin/62fa685025556efbf951/data.js",
+          "scene": null,
+          "seed": 100023,
+          "success": true
+        },
+        {
+          "id": "cd206b527fc61264c51c",
+          "record": "dump_bin_bigbin/cd206b527fc61264c51c/data.js",
+          "scene": null,
+          "seed": 100026,
+          "success": false
+        },
+        {
+          "id": "5a66463d5fa3d52848ef",
+          "record": "dump_bin_bigbin/5a66463d5fa3d52848ef/data.js",
+          "scene": null,
+          "seed": 100029,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "grab_roller",
+      "episodes": [
+        {
+          "id": "afc10d54a4c031f7a51e",
+          "record": "grab_roller/afc10d54a4c031f7a51e/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "ade4bd748c7274638d27",
+          "record": "grab_roller/ade4bd748c7274638d27/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "03fd1c5372db4d4615e6",
+          "record": "grab_roller/03fd1c5372db4d4615e6/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "b9ffa8d610f49ff8c8e3",
+          "record": "grab_roller/b9ffa8d610f49ff8c8e3/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "5ce41e7f13aa0323c9a4",
+          "record": "grab_roller/5ce41e7f13aa0323c9a4/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "31da3d1cb58e5f07b5ec",
+          "record": "grab_roller/31da3d1cb58e5f07b5ec/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "20581addeed8dbc334a0",
+          "record": "grab_roller/20581addeed8dbc334a0/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "a1728401bd472c9aeedf",
+          "record": "grab_roller/a1728401bd472c9aeedf/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "235ed25b27e13b51b868",
+          "record": "grab_roller/235ed25b27e13b51b868/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "928c65a6a92392c12865",
+          "record": "grab_roller/928c65a6a92392c12865/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "handover_block",
+      "episodes": [
+        {
+          "id": "28443c574fe6f547cc26",
+          "record": "handover_block/28443c574fe6f547cc26/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "35fd71d48199a9ac566a",
+          "record": "handover_block/35fd71d48199a9ac566a/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "id": "29fe03949cfa066503cf",
+          "record": "handover_block/29fe03949cfa066503cf/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "ab75cb0c7e21830bc2f8",
+          "record": "handover_block/ab75cb0c7e21830bc2f8/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "31c211221b100187ff79",
+          "record": "handover_block/31c211221b100187ff79/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "de68ebe85fdfd7bc56bb",
+          "record": "handover_block/de68ebe85fdfd7bc56bb/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "id": "f9a220a990116c5e95c5",
+          "record": "handover_block/f9a220a990116c5e95c5/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "6c941cd88dea0bb4d381",
+          "record": "handover_block/6c941cd88dea0bb4d381/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "id": "a24e6d400fd6a29892fe",
+          "record": "handover_block/a24e6d400fd6a29892fe/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "aa4cfb3c8ee964e3cf54",
+          "record": "handover_block/aa4cfb3c8ee964e3cf54/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "handover_mic",
+      "episodes": [
+        {
+          "id": "a5c5236c00c615c7fafd",
+          "record": "handover_mic/a5c5236c00c615c7fafd/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "2f66b4b690b0ba98670c",
+          "record": "handover_mic/2f66b4b690b0ba98670c/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "ac02c78318f7869b744b",
+          "record": "handover_mic/ac02c78318f7869b744b/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "19e0c8b8f72d48865b65",
+          "record": "handover_mic/19e0c8b8f72d48865b65/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "cc10c95d305ce0b9f836",
+          "record": "handover_mic/cc10c95d305ce0b9f836/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "7748abd66a51069b7b61",
+          "record": "handover_mic/7748abd66a51069b7b61/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "b738a2fb3b7e37a2d50b",
+          "record": "handover_mic/b738a2fb3b7e37a2d50b/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "36bc0257f8454096d2dc",
+          "record": "handover_mic/36bc0257f8454096d2dc/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "62525a383678dc0373ee",
+          "record": "handover_mic/62525a383678dc0373ee/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "c3ca05983897c50ed11f",
+          "record": "handover_mic/c3ca05983897c50ed11f/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "hanging_mug",
+      "episodes": [
+        {
+          "id": "50ad1a2bf676d9f2c920",
+          "record": "hanging_mug/50ad1a2bf676d9f2c920/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "id": "0fcce27691449731ba84",
+          "record": "hanging_mug/0fcce27691449731ba84/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "id": "8be5750a54d84da3028e",
+          "record": "hanging_mug/8be5750a54d84da3028e/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "dd32a19083a16ba2868c",
+          "record": "hanging_mug/dd32a19083a16ba2868c/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "2239a22605d9bac08500",
+          "record": "hanging_mug/2239a22605d9bac08500/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "id": "0d03e7f384f8f989198d",
+          "record": "hanging_mug/0d03e7f384f8f989198d/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "id": "5f159d588898d67216a0",
+          "record": "hanging_mug/5f159d588898d67216a0/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "6a5f0a37184b15874840",
+          "record": "hanging_mug/6a5f0a37184b15874840/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "3199f0e23705d3d52c77",
+          "record": "hanging_mug/3199f0e23705d3d52c77/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": false
+        },
+        {
+          "id": "01ed895962feb3585471",
+          "record": "hanging_mug/01ed895962feb3585471/data.js",
+          "scene": null,
+          "seed": 100018,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "lift_pot",
+      "episodes": [
+        {
+          "id": "7cf1e0df0a282312e530",
+          "record": "lift_pot/7cf1e0df0a282312e530/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "id": "4c864212820153d88887",
+          "record": "lift_pot/4c864212820153d88887/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "4c4a743aeefd2cf4bbed",
+          "record": "lift_pot/4c4a743aeefd2cf4bbed/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "443839102181bfa0b6af",
+          "record": "lift_pot/443839102181bfa0b6af/data.js",
+          "scene": null,
+          "seed": 100017,
+          "success": true
+        },
+        {
+          "id": "74fb61c31501e82b033f",
+          "record": "lift_pot/74fb61c31501e82b033f/data.js",
+          "scene": null,
+          "seed": 100021,
+          "success": true
+        },
+        {
+          "id": "4f51d69165585e8e9936",
+          "record": "lift_pot/4f51d69165585e8e9936/data.js",
+          "scene": null,
+          "seed": 100022,
+          "success": true
+        },
+        {
+          "id": "c7a6c631e6ce242b2e5f",
+          "record": "lift_pot/c7a6c631e6ce242b2e5f/data.js",
+          "scene": null,
+          "seed": 100023,
+          "success": false
+        },
+        {
+          "id": "fadf47ad21a02cd46864",
+          "record": "lift_pot/fadf47ad21a02cd46864/data.js",
+          "scene": null,
+          "seed": 100027,
+          "success": true
+        },
+        {
+          "id": "6d951c3aace23b80a533",
+          "record": "lift_pot/6d951c3aace23b80a533/data.js",
+          "scene": null,
+          "seed": 100029,
+          "success": true
+        },
+        {
+          "id": "4e0c3e0c496f353cf92f",
+          "record": "lift_pot/4e0c3e0c496f353cf92f/data.js",
+          "scene": null,
+          "seed": 100030,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "move_can_pot",
+      "episodes": [
+        {
+          "id": "539ffafd0c895957b53d",
+          "record": "move_can_pot/539ffafd0c895957b53d/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "06c4e5b021104b9e3dbd",
+          "record": "move_can_pot/06c4e5b021104b9e3dbd/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "61bd9edd6f5ff1327001",
+          "record": "move_can_pot/61bd9edd6f5ff1327001/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "e290f470f7da1dbb7832",
+          "record": "move_can_pot/e290f470f7da1dbb7832/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "91f6e8464f570e2f6466",
+          "record": "move_can_pot/91f6e8464f570e2f6466/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "id": "2f9cf9dd0bd7958c01db",
+          "record": "move_can_pot/2f9cf9dd0bd7958c01db/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "eab9a5a03e14316b022f",
+          "record": "move_can_pot/eab9a5a03e14316b022f/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "id": "1d14501d872c8eac7280",
+          "record": "move_can_pot/1d14501d872c8eac7280/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "2cab38133b717044c1f8",
+          "record": "move_can_pot/2cab38133b717044c1f8/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "fa3999d20e670f74f18d",
+          "record": "move_can_pot/fa3999d20e670f74f18d/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "move_pillbottle_pad",
+      "episodes": [
+        {
+          "id": "e003113a428023b1f76a",
+          "record": "move_pillbottle_pad/e003113a428023b1f76a/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "dfdff16c14916d31c778",
+          "record": "move_pillbottle_pad/dfdff16c14916d31c778/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "id": "1f2abfc3d8d9c5039c1c",
+          "record": "move_pillbottle_pad/1f2abfc3d8d9c5039c1c/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "59fd1af115622fff7880",
+          "record": "move_pillbottle_pad/59fd1af115622fff7880/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "0651849dc55dd8dad1ca",
+          "record": "move_pillbottle_pad/0651849dc55dd8dad1ca/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "id": "6f8fdfeb0b5ed113fbad",
+          "record": "move_pillbottle_pad/6f8fdfeb0b5ed113fbad/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "5ae8a0015577064f7e9c",
+          "record": "move_pillbottle_pad/5ae8a0015577064f7e9c/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "019becdcbd560df6aa21",
+          "record": "move_pillbottle_pad/019becdcbd560df6aa21/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "80f7956d473197b6fb65",
+          "record": "move_pillbottle_pad/80f7956d473197b6fb65/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "96a8e529061280e51dde",
+          "record": "move_pillbottle_pad/96a8e529061280e51dde/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "move_playingcard_away",
+      "episodes": [
+        {
+          "id": "38b1a342731aca7dab2c",
+          "record": "move_playingcard_away/38b1a342731aca7dab2c/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "363bc364e4cef5d95824",
+          "record": "move_playingcard_away/363bc364e4cef5d95824/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "1d2fb7ee2a460631b516",
+          "record": "move_playingcard_away/1d2fb7ee2a460631b516/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "6efd8b165f122d570ab8",
+          "record": "move_playingcard_away/6efd8b165f122d570ab8/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "06d5d0baafe160e3f130",
+          "record": "move_playingcard_away/06d5d0baafe160e3f130/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "24022b4158e8bfcde362",
+          "record": "move_playingcard_away/24022b4158e8bfcde362/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "9cf5052fb254d0a09aff",
+          "record": "move_playingcard_away/9cf5052fb254d0a09aff/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "50a0d3aaff27e6b946f9",
+          "record": "move_playingcard_away/50a0d3aaff27e6b946f9/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "1b2a81f7dd74ecfea80b",
+          "record": "move_playingcard_away/1b2a81f7dd74ecfea80b/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "0d0bdb45efa021e957a4",
+          "record": "move_playingcard_away/0d0bdb45efa021e957a4/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "move_stapler_pad",
+      "episodes": [
+        {
+          "id": "71309680bedb036b3953",
+          "record": "move_stapler_pad/71309680bedb036b3953/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "e9b0edc2cd9de35005de",
+          "record": "move_stapler_pad/e9b0edc2cd9de35005de/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "95016f36c51b77ed8bc0",
+          "record": "move_stapler_pad/95016f36c51b77ed8bc0/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "aa9402288d9214da42cf",
+          "record": "move_stapler_pad/aa9402288d9214da42cf/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "21ede60715d10b131350",
+          "record": "move_stapler_pad/21ede60715d10b131350/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "ea24adbc7fdca7622830",
+          "record": "move_stapler_pad/ea24adbc7fdca7622830/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "a0d224bd1ec478ddc1bf",
+          "record": "move_stapler_pad/a0d224bd1ec478ddc1bf/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "69fb1f45919644963e24",
+          "record": "move_stapler_pad/69fb1f45919644963e24/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "435efea9aa9fc98cf55d",
+          "record": "move_stapler_pad/435efea9aa9fc98cf55d/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "8d547ca336c08d270177",
+          "record": "move_stapler_pad/8d547ca336c08d270177/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "open_laptop",
+      "episodes": [
+        {
+          "id": "a1283f13af3507735829",
+          "record": "open_laptop/a1283f13af3507735829/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "f571e8dfc0343d0c3678",
+          "record": "open_laptop/f571e8dfc0343d0c3678/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "5571b41b14b3b69f9455",
+          "record": "open_laptop/5571b41b14b3b69f9455/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "2328776aa44e491f6930",
+          "record": "open_laptop/2328776aa44e491f6930/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "id": "90009d7dec8b7b89f142",
+          "record": "open_laptop/90009d7dec8b7b89f142/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "6314c17e0b7346e5bdf2",
+          "record": "open_laptop/6314c17e0b7346e5bdf2/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "7529db71fbc4864a29a4",
+          "record": "open_laptop/7529db71fbc4864a29a4/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "id": "d79d3eb9704a58a94cfd",
+          "record": "open_laptop/d79d3eb9704a58a94cfd/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "d2bce7d52f5b97a32112",
+          "record": "open_laptop/d2bce7d52f5b97a32112/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "e550e9ad4a05b47f5574",
+          "record": "open_laptop/e550e9ad4a05b47f5574/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "open_microwave",
+      "episodes": [
+        {
+          "id": "fa421055159142835003",
+          "record": "open_microwave/fa421055159142835003/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "871397bca7c4a0285eb5",
+          "record": "open_microwave/871397bca7c4a0285eb5/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "42ee00c5da691892a602",
+          "record": "open_microwave/42ee00c5da691892a602/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "a6061cae300f3955e232",
+          "record": "open_microwave/a6061cae300f3955e232/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "20358469d1893364dc90",
+          "record": "open_microwave/20358469d1893364dc90/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "b5c6349b46b3125c18dc",
+          "record": "open_microwave/b5c6349b46b3125c18dc/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "08c77547453ad1d9076c",
+          "record": "open_microwave/08c77547453ad1d9076c/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "2f302d1911102fc93357",
+          "record": "open_microwave/2f302d1911102fc93357/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "f15d80fba13c28222c3c",
+          "record": "open_microwave/f15d80fba13c28222c3c/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "8799e75ca4b4ff212939",
+          "record": "open_microwave/8799e75ca4b4ff212939/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "pick_diverse_bottles",
+      "episodes": [
+        {
+          "id": "04fa351fa07a48c752a1",
+          "record": "pick_diverse_bottles/04fa351fa07a48c752a1/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "2c005db65154c6d74848",
+          "record": "pick_diverse_bottles/2c005db65154c6d74848/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "c833494f81c652bd0643",
+          "record": "pick_diverse_bottles/c833494f81c652bd0643/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "e2fee6fc1264b545ff64",
+          "record": "pick_diverse_bottles/e2fee6fc1264b545ff64/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "id": "17824b88461e12d95eef",
+          "record": "pick_diverse_bottles/17824b88461e12d95eef/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        },
+        {
+          "id": "d515edefc6e3996d147a",
+          "record": "pick_diverse_bottles/d515edefc6e3996d147a/data.js",
+          "scene": null,
+          "seed": 100020,
+          "success": false
+        },
+        {
+          "id": "212e011e4f3c88d0552a",
+          "record": "pick_diverse_bottles/212e011e4f3c88d0552a/data.js",
+          "scene": null,
+          "seed": 100024,
+          "success": true
+        },
+        {
+          "id": "72f00a0375674736e3bc",
+          "record": "pick_diverse_bottles/72f00a0375674736e3bc/data.js",
+          "scene": null,
+          "seed": 100026,
+          "success": false
+        },
+        {
+          "id": "b2a96285a1c2598ae242",
+          "record": "pick_diverse_bottles/b2a96285a1c2598ae242/data.js",
+          "scene": null,
+          "seed": 100027,
+          "success": true
+        },
+        {
+          "id": "185cea18362d49b5354d",
+          "record": "pick_diverse_bottles/185cea18362d49b5354d/data.js",
+          "scene": null,
+          "seed": 100029,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "pick_dual_bottles",
+      "episodes": [
+        {
+          "id": "140edc724cf254b51182",
+          "record": "pick_dual_bottles/140edc724cf254b51182/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "d04a004f003a2a7500cb",
+          "record": "pick_dual_bottles/d04a004f003a2a7500cb/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "1d080f1b50afceff793b",
+          "record": "pick_dual_bottles/1d080f1b50afceff793b/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "913378ad2b42f5baf6f3",
+          "record": "pick_dual_bottles/913378ad2b42f5baf6f3/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "3b12073248f7b673b016",
+          "record": "pick_dual_bottles/3b12073248f7b673b016/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "22208c3295af46a2b98b",
+          "record": "pick_dual_bottles/22208c3295af46a2b98b/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "id": "3bc79aba86b35e2fff97",
+          "record": "pick_dual_bottles/3bc79aba86b35e2fff97/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "74779b87757c0df1e480",
+          "record": "pick_dual_bottles/74779b87757c0df1e480/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "29b84e9303fbdc53f6e4",
+          "record": "pick_dual_bottles/29b84e9303fbdc53f6e4/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "id": "3e26d1c734a4404e87b7",
+          "record": "pick_dual_bottles/3e26d1c734a4404e87b7/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "place_a2b_left",
+      "episodes": [
+        {
+          "id": "2aa84aa6733f9542af43",
+          "record": "place_a2b_left/2aa84aa6733f9542af43/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "e309001b337306d01419",
+          "record": "place_a2b_left/e309001b337306d01419/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "1ba131ebb013372696d1",
+          "record": "place_a2b_left/1ba131ebb013372696d1/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "063ee6a7ccdbd2b70a43",
+          "record": "place_a2b_left/063ee6a7ccdbd2b70a43/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "000f4cc28729d74d5ff7",
+          "record": "place_a2b_left/000f4cc28729d74d5ff7/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "40ab6374f81a5bf943c4",
+          "record": "place_a2b_left/40ab6374f81a5bf943c4/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "d2df58f67caf06db33cc",
+          "record": "place_a2b_left/d2df58f67caf06db33cc/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "3cb7b3bc6380efdaf4e9",
+          "record": "place_a2b_left/3cb7b3bc6380efdaf4e9/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "a40e2a0d8c281e7e8f01",
+          "record": "place_a2b_left/a40e2a0d8c281e7e8f01/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "5330d1b083f053ecd134",
+          "record": "place_a2b_left/5330d1b083f053ecd134/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_a2b_right",
+      "episodes": [
+        {
+          "id": "a770e9f5b82b18b53e7c",
+          "record": "place_a2b_right/a770e9f5b82b18b53e7c/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "ba75286bddd32e053766",
+          "record": "place_a2b_right/ba75286bddd32e053766/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "b1b3e7b6a65ce2bbf899",
+          "record": "place_a2b_right/b1b3e7b6a65ce2bbf899/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "d3d12c04bba142fa191a",
+          "record": "place_a2b_right/d3d12c04bba142fa191a/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "e7b4b67afbb5e5f3d575",
+          "record": "place_a2b_right/e7b4b67afbb5e5f3d575/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "b7fccf0fcd3dcfbb6eec",
+          "record": "place_a2b_right/b7fccf0fcd3dcfbb6eec/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "e4a557607936ecdb8aa5",
+          "record": "place_a2b_right/e4a557607936ecdb8aa5/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "28fddbb263fe1169241f",
+          "record": "place_a2b_right/28fddbb263fe1169241f/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "1285ead33a38d2ca5177",
+          "record": "place_a2b_right/1285ead33a38d2ca5177/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "7598fae5e82b7a50c8a6",
+          "record": "place_a2b_right/7598fae5e82b7a50c8a6/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_bread_basket",
+      "episodes": [
+        {
+          "id": "a6b11c75be4fd8c2cc88",
+          "record": "place_bread_basket/a6b11c75be4fd8c2cc88/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "676cf0ce6711ce9b700e",
+          "record": "place_bread_basket/676cf0ce6711ce9b700e/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "id": "5d2d403cbb19ff3db692",
+          "record": "place_bread_basket/5d2d403cbb19ff3db692/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "id": "9f795dfa979729ef2f4e",
+          "record": "place_bread_basket/9f795dfa979729ef2f4e/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "8e6449a0f7db4e21948f",
+          "record": "place_bread_basket/8e6449a0f7db4e21948f/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "id": "a5b0f402a80e252794e5",
+          "record": "place_bread_basket/a5b0f402a80e252794e5/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "21422ac2377f093ea34a",
+          "record": "place_bread_basket/21422ac2377f093ea34a/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "c30f429a213be427c588",
+          "record": "place_bread_basket/c30f429a213be427c588/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "c520f3f1693ad125c77a",
+          "record": "place_bread_basket/c520f3f1693ad125c77a/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "id": "cda8916d36c9be23646b",
+          "record": "place_bread_basket/cda8916d36c9be23646b/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_bread_skillet",
+      "episodes": [
+        {
+          "id": "f473ed37fa041ddbaab6",
+          "record": "place_bread_skillet/f473ed37fa041ddbaab6/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "f30c6e3c86011c387e11",
+          "record": "place_bread_skillet/f30c6e3c86011c387e11/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "f912fa1e8008e35cbee1",
+          "record": "place_bread_skillet/f912fa1e8008e35cbee1/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "id": "c0d887f09ae7b307df62",
+          "record": "place_bread_skillet/c0d887f09ae7b307df62/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "id": "02dc14cc655f297e8cf7",
+          "record": "place_bread_skillet/02dc14cc655f297e8cf7/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "25a912bb8cc4bbc12a94",
+          "record": "place_bread_skillet/25a912bb8cc4bbc12a94/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        },
+        {
+          "id": "260bf20bf3912723f7b1",
+          "record": "place_bread_skillet/260bf20bf3912723f7b1/data.js",
+          "scene": null,
+          "seed": 100014,
+          "success": true
+        },
+        {
+          "id": "df15e754bbe2de400752",
+          "record": "place_bread_skillet/df15e754bbe2de400752/data.js",
+          "scene": null,
+          "seed": 100017,
+          "success": true
+        },
+        {
+          "id": "6e58b5555f976f444b12",
+          "record": "place_bread_skillet/6e58b5555f976f444b12/data.js",
+          "scene": null,
+          "seed": 100022,
+          "success": false
+        },
+        {
+          "id": "105d9d1615197c39f11e",
+          "record": "place_bread_skillet/105d9d1615197c39f11e/data.js",
+          "scene": null,
+          "seed": 100024,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "place_burger_fries",
+      "episodes": [
+        {
+          "id": "18dd63103d6719760c49",
+          "record": "place_burger_fries/18dd63103d6719760c49/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "6b7e2b48a7c792d02da5",
+          "record": "place_burger_fries/6b7e2b48a7c792d02da5/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "d386649aa207e3e16e3a",
+          "record": "place_burger_fries/d386649aa207e3e16e3a/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "5f734ed8f947c541d5d6",
+          "record": "place_burger_fries/5f734ed8f947c541d5d6/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "b0eda956c6b9640af5a7",
+          "record": "place_burger_fries/b0eda956c6b9640af5a7/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "517127c3ed9bd3199c07",
+          "record": "place_burger_fries/517127c3ed9bd3199c07/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "2383104775d25e288032",
+          "record": "place_burger_fries/2383104775d25e288032/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "c30e7b16bc82b58f4a62",
+          "record": "place_burger_fries/c30e7b16bc82b58f4a62/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "8398d7521a548296658e",
+          "record": "place_burger_fries/8398d7521a548296658e/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "8d0c889ba3cb8db63cde",
+          "record": "place_burger_fries/8d0c889ba3cb8db63cde/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_can_basket",
+      "episodes": [
+        {
+          "id": "001f8de222fe04d9f27c",
+          "record": "place_can_basket/001f8de222fe04d9f27c/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "id": "7990a305b4b4c669f7e6",
+          "record": "place_can_basket/7990a305b4b4c669f7e6/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "id": "b7f1b29fc84494fab2f2",
+          "record": "place_can_basket/b7f1b29fc84494fab2f2/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "d5cd891a89b618d92f85",
+          "record": "place_can_basket/d5cd891a89b618d92f85/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "id": "df0bbc04e5ef20374e0a",
+          "record": "place_can_basket/df0bbc04e5ef20374e0a/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "8641b73dd2712762744f",
+          "record": "place_can_basket/8641b73dd2712762744f/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "id": "d5d5cbd915b0ebf3881d",
+          "record": "place_can_basket/d5d5cbd915b0ebf3881d/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "1d5b625af6f52d9e11e0",
+          "record": "place_can_basket/1d5b625af6f52d9e11e0/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "fe2ba1029cd3fdf49470",
+          "record": "place_can_basket/fe2ba1029cd3fdf49470/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        },
+        {
+          "id": "116ecb426b7c6e9f8df1",
+          "record": "place_can_basket/116ecb426b7c6e9f8df1/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_cans_plasticbox",
+      "episodes": [
+        {
+          "id": "8368b67b771ba53a457f",
+          "record": "place_cans_plasticbox/8368b67b771ba53a457f/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "id": "24dfadc0e4125e24e782",
+          "record": "place_cans_plasticbox/24dfadc0e4125e24e782/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "id": "b0ea82d759eae66ce6e4",
+          "record": "place_cans_plasticbox/b0ea82d759eae66ce6e4/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "55f85a4d3c5a7681058e",
+          "record": "place_cans_plasticbox/55f85a4d3c5a7681058e/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "a64ac7eda23660ba835b",
+          "record": "place_cans_plasticbox/a64ac7eda23660ba835b/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "id": "e8c83085ab08393ed7a8",
+          "record": "place_cans_plasticbox/e8c83085ab08393ed7a8/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "554787b5dcdd1664b4d0",
+          "record": "place_cans_plasticbox/554787b5dcdd1664b4d0/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "id": "806a0ef436aa76d210b0",
+          "record": "place_cans_plasticbox/806a0ef436aa76d210b0/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "6fe64e6c71ecab71d219",
+          "record": "place_cans_plasticbox/6fe64e6c71ecab71d219/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "id": "cd33e43729045cbbf937",
+          "record": "place_cans_plasticbox/cd33e43729045cbbf937/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "place_container_plate",
+      "episodes": [
+        {
+          "id": "c71bf291a77bfd10befd",
+          "record": "place_container_plate/c71bf291a77bfd10befd/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "id": "801edca39a7302691b86",
+          "record": "place_container_plate/801edca39a7302691b86/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "be8cf259edef03911814",
+          "record": "place_container_plate/be8cf259edef03911814/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "0f3fde981915efe0fb0d",
+          "record": "place_container_plate/0f3fde981915efe0fb0d/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "6eaee750ad8297d5b26e",
+          "record": "place_container_plate/6eaee750ad8297d5b26e/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "6fbbd3b7d13277696550",
+          "record": "place_container_plate/6fbbd3b7d13277696550/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "58bb394d9db472b050d8",
+          "record": "place_container_plate/58bb394d9db472b050d8/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "51f75b4b192b9280a59b",
+          "record": "place_container_plate/51f75b4b192b9280a59b/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "id": "276b9d64a11446780943",
+          "record": "place_container_plate/276b9d64a11446780943/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "71e9ca3eb6ea464b8d8c",
+          "record": "place_container_plate/71e9ca3eb6ea464b8d8c/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "place_dual_shoes",
+      "episodes": [
+        {
+          "id": "9533dd7a04afdf84515b",
+          "record": "place_dual_shoes/9533dd7a04afdf84515b/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "aa27ffdf7571de49f60c",
+          "record": "place_dual_shoes/aa27ffdf7571de49f60c/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "5af6ed4f3113e95282be",
+          "record": "place_dual_shoes/5af6ed4f3113e95282be/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "id": "b8ccbab3901d93c7c841",
+          "record": "place_dual_shoes/b8ccbab3901d93c7c841/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "5ea4beea1d461dc2e4aa",
+          "record": "place_dual_shoes/5ea4beea1d461dc2e4aa/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "id": "fc9c5cbb31b78bad76e5",
+          "record": "place_dual_shoes/fc9c5cbb31b78bad76e5/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": false
+        },
+        {
+          "id": "e8d9df6ad4f120c7429b",
+          "record": "place_dual_shoes/e8d9df6ad4f120c7429b/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        },
+        {
+          "id": "c3fa901145f52e46a848",
+          "record": "place_dual_shoes/c3fa901145f52e46a848/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": false
+        },
+        {
+          "id": "129d455e5c31c0b72aed",
+          "record": "place_dual_shoes/129d455e5c31c0b72aed/data.js",
+          "scene": null,
+          "seed": 100014,
+          "success": true
+        },
+        {
+          "id": "fc8aed5f09510f5b31cb",
+          "record": "place_dual_shoes/fc8aed5f09510f5b31cb/data.js",
+          "scene": null,
+          "seed": 100015,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "place_empty_cup",
+      "episodes": [
+        {
+          "id": "f11ec87f136bd2f07b57",
+          "record": "place_empty_cup/f11ec87f136bd2f07b57/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "8543a12d8bad1aafb635",
+          "record": "place_empty_cup/8543a12d8bad1aafb635/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "e7565b4df3b6da6b29ae",
+          "record": "place_empty_cup/e7565b4df3b6da6b29ae/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "4b8fae53ab190d8828e4",
+          "record": "place_empty_cup/4b8fae53ab190d8828e4/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "6ca0d3704b55f5b24bfd",
+          "record": "place_empty_cup/6ca0d3704b55f5b24bfd/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "fa5b1a27283ab6882a2a",
+          "record": "place_empty_cup/fa5b1a27283ab6882a2a/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "9bd00443b5d2b0f9b2c9",
+          "record": "place_empty_cup/9bd00443b5d2b0f9b2c9/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "id": "7c1b32b6a82b95201dc0",
+          "record": "place_empty_cup/7c1b32b6a82b95201dc0/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "fbdae34125f4a1725e3f",
+          "record": "place_empty_cup/fbdae34125f4a1725e3f/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "61787e3b4293462be665",
+          "record": "place_empty_cup/61787e3b4293462be665/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_fan",
+      "episodes": [
+        {
+          "id": "5468c0b675f165fd7c5d",
+          "record": "place_fan/5468c0b675f165fd7c5d/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "1d559cf245ba61910058",
+          "record": "place_fan/1d559cf245ba61910058/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "92f57ed25d0bea10edc0",
+          "record": "place_fan/92f57ed25d0bea10edc0/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "id": "95b55fb0070e5c7db841",
+          "record": "place_fan/95b55fb0070e5c7db841/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "id": "fdeaf109ccb6fcfbbb36",
+          "record": "place_fan/fdeaf109ccb6fcfbbb36/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "e64d4a94a1b02eae660a",
+          "record": "place_fan/e64d4a94a1b02eae660a/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "f5d87ae32e8fed7c9122",
+          "record": "place_fan/f5d87ae32e8fed7c9122/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": false
+        },
+        {
+          "id": "45507522dec8d012c79b",
+          "record": "place_fan/45507522dec8d012c79b/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "a09526393225ff228b35",
+          "record": "place_fan/a09526393225ff228b35/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": false
+        },
+        {
+          "id": "f7b153ea609d6c76956a",
+          "record": "place_fan/f7b153ea609d6c76956a/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_mouse_pad",
+      "episodes": [
+        {
+          "id": "e33dc25a5e68e0928dff",
+          "record": "place_mouse_pad/e33dc25a5e68e0928dff/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "bd36852d12de372eab56",
+          "record": "place_mouse_pad/bd36852d12de372eab56/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "2a262f14de5747aaca6a",
+          "record": "place_mouse_pad/2a262f14de5747aaca6a/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "86d06d52f4b66a3e0d8d",
+          "record": "place_mouse_pad/86d06d52f4b66a3e0d8d/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "a17cce298072d8812e8a",
+          "record": "place_mouse_pad/a17cce298072d8812e8a/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "ab29de6214fbfed2c852",
+          "record": "place_mouse_pad/ab29de6214fbfed2c852/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "3dab9ebea1ed66bc218a",
+          "record": "place_mouse_pad/3dab9ebea1ed66bc218a/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "ebbfe6b98c2f8c488333",
+          "record": "place_mouse_pad/ebbfe6b98c2f8c488333/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "660cb0a73b4cdf4fc9c2",
+          "record": "place_mouse_pad/660cb0a73b4cdf4fc9c2/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "c155f4f28b0e68b80a5e",
+          "record": "place_mouse_pad/c155f4f28b0e68b80a5e/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_object_basket",
+      "episodes": [
+        {
+          "id": "325b7070a55897e04e56",
+          "record": "place_object_basket/325b7070a55897e04e56/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "ae5dd5aebd83cad47f6d",
+          "record": "place_object_basket/ae5dd5aebd83cad47f6d/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "0395510289b7882a8abe",
+          "record": "place_object_basket/0395510289b7882a8abe/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "id": "b73654d2219621bcc1cf",
+          "record": "place_object_basket/b73654d2219621bcc1cf/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "ec5bfd7d4385279362bd",
+          "record": "place_object_basket/ec5bfd7d4385279362bd/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "ad8296be0daf775392f9",
+          "record": "place_object_basket/ad8296be0daf775392f9/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "0f68b8387a604aafd27e",
+          "record": "place_object_basket/0f68b8387a604aafd27e/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        },
+        {
+          "id": "e2ce577ae915bb852b16",
+          "record": "place_object_basket/e2ce577ae915bb852b16/data.js",
+          "scene": null,
+          "seed": 100018,
+          "success": true
+        },
+        {
+          "id": "b3ff1722b5ee2eb25c5f",
+          "record": "place_object_basket/b3ff1722b5ee2eb25c5f/data.js",
+          "scene": null,
+          "seed": 100021,
+          "success": true
+        },
+        {
+          "id": "d5c5804500721c20d974",
+          "record": "place_object_basket/d5c5804500721c20d974/data.js",
+          "scene": null,
+          "seed": 100022,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_object_scale",
+      "episodes": [
+        {
+          "id": "f33cd2111b7b1732e117",
+          "record": "place_object_scale/f33cd2111b7b1732e117/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "cbd249572ef02e135ba6",
+          "record": "place_object_scale/cbd249572ef02e135ba6/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "2e64b2871c6f059f32f2",
+          "record": "place_object_scale/2e64b2871c6f059f32f2/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "05fa0c122f47538205b7",
+          "record": "place_object_scale/05fa0c122f47538205b7/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "9654ae3e51bc92035b12",
+          "record": "place_object_scale/9654ae3e51bc92035b12/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "d00c29f0723b9e49358e",
+          "record": "place_object_scale/d00c29f0723b9e49358e/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "89f0c6c3c2f13f02df5f",
+          "record": "place_object_scale/89f0c6c3c2f13f02df5f/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "4fed7bb355cbd4c5c6da",
+          "record": "place_object_scale/4fed7bb355cbd4c5c6da/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "aeedb902dd405caeb3c0",
+          "record": "place_object_scale/aeedb902dd405caeb3c0/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "dca86a7f9b2df311566f",
+          "record": "place_object_scale/dca86a7f9b2df311566f/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_object_stand",
+      "episodes": [
+        {
+          "id": "4d339f9225448a47d361",
+          "record": "place_object_stand/4d339f9225448a47d361/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "7caa7e47e3872f393d52",
+          "record": "place_object_stand/7caa7e47e3872f393d52/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "24c4b82601fe9e7f2363",
+          "record": "place_object_stand/24c4b82601fe9e7f2363/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "20b91cb8b4c06ba92893",
+          "record": "place_object_stand/20b91cb8b4c06ba92893/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "4c5c0cd4812a19bf1ef6",
+          "record": "place_object_stand/4c5c0cd4812a19bf1ef6/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "c915b2bd4dc3ae0bad06",
+          "record": "place_object_stand/c915b2bd4dc3ae0bad06/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "df06e3524464156ccaae",
+          "record": "place_object_stand/df06e3524464156ccaae/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "cbe0a8ac60b668c6027c",
+          "record": "place_object_stand/cbe0a8ac60b668c6027c/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "a1fb400bf735eaa327ab",
+          "record": "place_object_stand/a1fb400bf735eaa327ab/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "58a06582f250937714cf",
+          "record": "place_object_stand/58a06582f250937714cf/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_phone_stand",
+      "episodes": [
+        {
+          "id": "9b03e4e6502a37d790f7",
+          "record": "place_phone_stand/9b03e4e6502a37d790f7/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "0e00e7c0bc8304f904e0",
+          "record": "place_phone_stand/0e00e7c0bc8304f904e0/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "f833b2c1806db333584d",
+          "record": "place_phone_stand/f833b2c1806db333584d/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": false
+        },
+        {
+          "id": "be6fbae3a607cba0474f",
+          "record": "place_phone_stand/be6fbae3a607cba0474f/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        },
+        {
+          "id": "4b66bde719bcda3ec856",
+          "record": "place_phone_stand/4b66bde719bcda3ec856/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        },
+        {
+          "id": "3c657e70a287a4da2583",
+          "record": "place_phone_stand/3c657e70a287a4da2583/data.js",
+          "scene": null,
+          "seed": 100014,
+          "success": true
+        },
+        {
+          "id": "c75b009946e0938f1c9b",
+          "record": "place_phone_stand/c75b009946e0938f1c9b/data.js",
+          "scene": null,
+          "seed": 100015,
+          "success": true
+        },
+        {
+          "id": "18eee0554c1f0ce55d6b",
+          "record": "place_phone_stand/18eee0554c1f0ce55d6b/data.js",
+          "scene": null,
+          "seed": 100017,
+          "success": true
+        },
+        {
+          "id": "c277a552b7481d069407",
+          "record": "place_phone_stand/c277a552b7481d069407/data.js",
+          "scene": null,
+          "seed": 100020,
+          "success": true
+        },
+        {
+          "id": "66af61907af21f23b0c2",
+          "record": "place_phone_stand/66af61907af21f23b0c2/data.js",
+          "scene": null,
+          "seed": 100021,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "place_shoe",
+      "episodes": [
+        {
+          "id": "f4baad9c18e52d2799c1",
+          "record": "place_shoe/f4baad9c18e52d2799c1/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "06d65a33e7e5750b8531",
+          "record": "place_shoe/06d65a33e7e5750b8531/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "6edf189512e18ebc69a4",
+          "record": "place_shoe/6edf189512e18ebc69a4/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "3e021a2ea758d513f857",
+          "record": "place_shoe/3e021a2ea758d513f857/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "969a8d527d6c93026c8b",
+          "record": "place_shoe/969a8d527d6c93026c8b/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "883b3ed88c6727737ed0",
+          "record": "place_shoe/883b3ed88c6727737ed0/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "8636b51008a3a74a39f5",
+          "record": "place_shoe/8636b51008a3a74a39f5/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "id": "a590adabddd58a0855d1",
+          "record": "place_shoe/a590adabddd58a0855d1/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "id": "17f724946f6350ff7e8c",
+          "record": "place_shoe/17f724946f6350ff7e8c/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "0b7b48a4b2fba7eaee2e",
+          "record": "place_shoe/0b7b48a4b2fba7eaee2e/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "press_stapler",
+      "episodes": [
+        {
+          "id": "4b50ebb2f9337e2ed6be",
+          "record": "press_stapler/4b50ebb2f9337e2ed6be/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "0fbee051be3e6e0dcaef",
+          "record": "press_stapler/0fbee051be3e6e0dcaef/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "eb08c4509c5b67ae98f5",
+          "record": "press_stapler/eb08c4509c5b67ae98f5/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "72a2007cbc69087a7286",
+          "record": "press_stapler/72a2007cbc69087a7286/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "8a7668b1ea5c18c6442e",
+          "record": "press_stapler/8a7668b1ea5c18c6442e/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "9da2a0a6bd907e15f4a3",
+          "record": "press_stapler/9da2a0a6bd907e15f4a3/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "d5ed0621043ce4f795d9",
+          "record": "press_stapler/d5ed0621043ce4f795d9/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "1f746a7f4e3c710a1259",
+          "record": "press_stapler/1f746a7f4e3c710a1259/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "f3d8c9cd19fda499ffbb",
+          "record": "press_stapler/f3d8c9cd19fda499ffbb/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "54db27627ea1dd7f3d15",
+          "record": "press_stapler/54db27627ea1dd7f3d15/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "put_bottles_dustbin",
+      "episodes": [
+        {
+          "id": "8147e540e3cddbc11ea1",
+          "record": "put_bottles_dustbin/8147e540e3cddbc11ea1/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "id": "542ab9d2e3da98992a48",
+          "record": "put_bottles_dustbin/542ab9d2e3da98992a48/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "id": "45a9332d7011ace08af8",
+          "record": "put_bottles_dustbin/45a9332d7011ace08af8/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "id": "28c19abfb8dcefb6f3a2",
+          "record": "put_bottles_dustbin/28c19abfb8dcefb6f3a2/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "id": "670eda01534627958337",
+          "record": "put_bottles_dustbin/670eda01534627958337/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "b24b2d80ee576d21dbe8",
+          "record": "put_bottles_dustbin/b24b2d80ee576d21dbe8/data.js",
+          "scene": null,
+          "seed": 100015,
+          "success": true
+        },
+        {
+          "id": "9a29e200052a51ec173b",
+          "record": "put_bottles_dustbin/9a29e200052a51ec173b/data.js",
+          "scene": null,
+          "seed": 100016,
+          "success": false
+        },
+        {
+          "id": "eaf058097d3c87d9ab20",
+          "record": "put_bottles_dustbin/eaf058097d3c87d9ab20/data.js",
+          "scene": null,
+          "seed": 100021,
+          "success": true
+        },
+        {
+          "id": "8c0238c8326765fe795a",
+          "record": "put_bottles_dustbin/8c0238c8326765fe795a/data.js",
+          "scene": null,
+          "seed": 100022,
+          "success": false
+        },
+        {
+          "id": "c33f7d7db7e8a87bc831",
+          "record": "put_bottles_dustbin/c33f7d7db7e8a87bc831/data.js",
+          "scene": null,
+          "seed": 100025,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "put_object_cabinet",
+      "episodes": [
+        {
+          "id": "e868204bfc28e8cb1f61",
+          "record": "put_object_cabinet/e868204bfc28e8cb1f61/data.js",
+          "scene": null,
+          "seed": 100026,
+          "success": true
+        },
+        {
+          "id": "8663cf5fc1945dd46984",
+          "record": "put_object_cabinet/8663cf5fc1945dd46984/data.js",
+          "scene": null,
+          "seed": 100055,
+          "success": false
+        },
+        {
+          "id": "9cd88d7a50ac28c0356b",
+          "record": "put_object_cabinet/9cd88d7a50ac28c0356b/data.js",
+          "scene": null,
+          "seed": 100093,
+          "success": false
+        },
+        {
+          "id": "eb8f60360428c89dbca7",
+          "record": "put_object_cabinet/eb8f60360428c89dbca7/data.js",
+          "scene": null,
+          "seed": 100102,
+          "success": true
+        },
+        {
+          "id": "b117d2f57d8e302edf82",
+          "record": "put_object_cabinet/b117d2f57d8e302edf82/data.js",
+          "scene": null,
+          "seed": 100107,
+          "success": false
+        },
+        {
+          "id": "028936ba63c323b6b97a",
+          "record": "put_object_cabinet/028936ba63c323b6b97a/data.js",
+          "scene": null,
+          "seed": 100136,
+          "success": true
+        },
+        {
+          "id": "41460b0e6bc878cd27fe",
+          "record": "put_object_cabinet/41460b0e6bc878cd27fe/data.js",
+          "scene": null,
+          "seed": 100159,
+          "success": true
+        },
+        {
+          "id": "6f6b9e4cf552d6e22304",
+          "record": "put_object_cabinet/6f6b9e4cf552d6e22304/data.js",
+          "scene": null,
+          "seed": 100183,
+          "success": true
+        },
+        {
+          "id": "3274f496e3a261386884",
+          "record": "put_object_cabinet/3274f496e3a261386884/data.js",
+          "scene": null,
+          "seed": 100202,
+          "success": true
+        },
+        {
+          "id": "58e8de27d30edaeb2c59",
+          "record": "put_object_cabinet/58e8de27d30edaeb2c59/data.js",
+          "scene": null,
+          "seed": 100230,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "rotate_qrcode",
+      "episodes": [
+        {
+          "id": "a0cac8f88a686545143c",
+          "record": "rotate_qrcode/a0cac8f88a686545143c/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "d418a5098e3766f757e6",
+          "record": "rotate_qrcode/d418a5098e3766f757e6/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "a6be28bf01fd713e588b",
+          "record": "rotate_qrcode/a6be28bf01fd713e588b/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "id": "592bfdb95b92634018e0",
+          "record": "rotate_qrcode/592bfdb95b92634018e0/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "47792c1e57acbc2f8366",
+          "record": "rotate_qrcode/47792c1e57acbc2f8366/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "5b445dc9d4322dd0c5f4",
+          "record": "rotate_qrcode/5b445dc9d4322dd0c5f4/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "id": "755c5f57bfb9fdb6e5e3",
+          "record": "rotate_qrcode/755c5f57bfb9fdb6e5e3/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "2315c93012d12c3dba39",
+          "record": "rotate_qrcode/2315c93012d12c3dba39/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "id": "3d286f470ea1b8a67704",
+          "record": "rotate_qrcode/3d286f470ea1b8a67704/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "610b3899e619e6b74cad",
+          "record": "rotate_qrcode/610b3899e619e6b74cad/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": false
+        }
+      ]
+    },
+    {
+      "task": "scan_object",
+      "episodes": [
+        {
+          "id": "6c45e61e4ef736fa69bf",
+          "record": "scan_object/6c45e61e4ef736fa69bf/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "c51e8474c894ef180c09",
+          "record": "scan_object/c51e8474c894ef180c09/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "id": "cd28338e3f87547fa218",
+          "record": "scan_object/cd28338e3f87547fa218/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "25765ae89e28cd8288ed",
+          "record": "scan_object/25765ae89e28cd8288ed/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": false
+        },
+        {
+          "id": "ebc7bd60229323f88787",
+          "record": "scan_object/ebc7bd60229323f88787/data.js",
+          "scene": null,
+          "seed": 100014,
+          "success": true
+        },
+        {
+          "id": "40cfd49277b19ae58412",
+          "record": "scan_object/40cfd49277b19ae58412/data.js",
+          "scene": null,
+          "seed": 100015,
+          "success": false
+        },
+        {
+          "id": "e733cb2654096b6e8117",
+          "record": "scan_object/e733cb2654096b6e8117/data.js",
+          "scene": null,
+          "seed": 100024,
+          "success": true
+        },
+        {
+          "id": "86b49b9d86db5aa08e72",
+          "record": "scan_object/86b49b9d86db5aa08e72/data.js",
+          "scene": null,
+          "seed": 100026,
+          "success": true
+        },
+        {
+          "id": "0439a9dc33f05264143f",
+          "record": "scan_object/0439a9dc33f05264143f/data.js",
+          "scene": null,
+          "seed": 100029,
+          "success": true
+        },
+        {
+          "id": "df93eb9efa699219c7c1",
+          "record": "scan_object/df93eb9efa699219c7c1/data.js",
+          "scene": null,
+          "seed": 100031,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "shake_bottle",
+      "episodes": [
+        {
+          "id": "4cdeb0d035e329ab1e66",
+          "record": "shake_bottle/4cdeb0d035e329ab1e66/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "cda8aaa04a2da5a94acc",
+          "record": "shake_bottle/cda8aaa04a2da5a94acc/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "f961dfbee6da21704c3d",
+          "record": "shake_bottle/f961dfbee6da21704c3d/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "0e8fbd3a7777265526dc",
+          "record": "shake_bottle/0e8fbd3a7777265526dc/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "8aa9dd23a23cd000200b",
+          "record": "shake_bottle/8aa9dd23a23cd000200b/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "ea72a2506aecb645c0d2",
+          "record": "shake_bottle/ea72a2506aecb645c0d2/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "cc2501dafbfab202714e",
+          "record": "shake_bottle/cc2501dafbfab202714e/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "f89907b68c15d36e45fd",
+          "record": "shake_bottle/f89907b68c15d36e45fd/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        },
+        {
+          "id": "20415c0c470b185fa95b",
+          "record": "shake_bottle/20415c0c470b185fa95b/data.js",
+          "scene": null,
+          "seed": 100014,
+          "success": true
+        },
+        {
+          "id": "b435eec3556dff5e6004",
+          "record": "shake_bottle/b435eec3556dff5e6004/data.js",
+          "scene": null,
+          "seed": 100015,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "shake_bottle_horizontally",
+      "episodes": [
+        {
+          "id": "26cf80b912891459b4b7",
+          "record": "shake_bottle_horizontally/26cf80b912891459b4b7/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "f470202e1684b56dc77e",
+          "record": "shake_bottle_horizontally/f470202e1684b56dc77e/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "05c92bf32c61fb8dd515",
+          "record": "shake_bottle_horizontally/05c92bf32c61fb8dd515/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "d0baf17c5c4abd94b25e",
+          "record": "shake_bottle_horizontally/d0baf17c5c4abd94b25e/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "d19608665a81900195a1",
+          "record": "shake_bottle_horizontally/d19608665a81900195a1/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "20f014c2cea1cafd7c9e",
+          "record": "shake_bottle_horizontally/20f014c2cea1cafd7c9e/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "f375c3cd4e6e67aada91",
+          "record": "shake_bottle_horizontally/f375c3cd4e6e67aada91/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "e8838481cba44d0c06b8",
+          "record": "shake_bottle_horizontally/e8838481cba44d0c06b8/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        },
+        {
+          "id": "eab1b98f9ba4102bc0e6",
+          "record": "shake_bottle_horizontally/eab1b98f9ba4102bc0e6/data.js",
+          "scene": null,
+          "seed": 100015,
+          "success": true
+        },
+        {
+          "id": "deb7c378f4e74a310d57",
+          "record": "shake_bottle_horizontally/deb7c378f4e74a310d57/data.js",
+          "scene": null,
+          "seed": 100016,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "stack_blocks_three",
+      "episodes": [
+        {
+          "id": "3e15c4e8f78740d37171",
+          "record": "stack_blocks_three/3e15c4e8f78740d37171/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "4335ea694a837cb847cb",
+          "record": "stack_blocks_three/4335ea694a837cb847cb/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "2f0b6770eb348dd79727",
+          "record": "stack_blocks_three/2f0b6770eb348dd79727/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "b61bb914837aa76f2726",
+          "record": "stack_blocks_three/b61bb914837aa76f2726/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "787798486d2647eee58c",
+          "record": "stack_blocks_three/787798486d2647eee58c/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "18fcb3270424a7aeb758",
+          "record": "stack_blocks_three/18fcb3270424a7aeb758/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "c4f320d39f1360b57a97",
+          "record": "stack_blocks_three/c4f320d39f1360b57a97/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "2cff06aaf55df6c44cdc",
+          "record": "stack_blocks_three/2cff06aaf55df6c44cdc/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "d97a11289caa596974b0",
+          "record": "stack_blocks_three/d97a11289caa596974b0/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "f88dc0d230f0272b430e",
+          "record": "stack_blocks_three/f88dc0d230f0272b430e/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "stack_blocks_two",
+      "episodes": [
+        {
+          "id": "24b3b50f2fa82fb4aab0",
+          "record": "stack_blocks_two/24b3b50f2fa82fb4aab0/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "3e07826276ae543dd253",
+          "record": "stack_blocks_two/3e07826276ae543dd253/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "398e542e053d8f9472b3",
+          "record": "stack_blocks_two/398e542e053d8f9472b3/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "22ac89a25bb0b3dc29f1",
+          "record": "stack_blocks_two/22ac89a25bb0b3dc29f1/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "9aea9ed1e72a30fa04ec",
+          "record": "stack_blocks_two/9aea9ed1e72a30fa04ec/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "189a46aa013ae4b5d8d3",
+          "record": "stack_blocks_two/189a46aa013ae4b5d8d3/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "d377f8ee773e859c0070",
+          "record": "stack_blocks_two/d377f8ee773e859c0070/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "202ea0c3533cdcc548bf",
+          "record": "stack_blocks_two/202ea0c3533cdcc548bf/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "bed93e417c4791594754",
+          "record": "stack_blocks_two/bed93e417c4791594754/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "44dae3cd66cdbce08189",
+          "record": "stack_blocks_two/44dae3cd66cdbce08189/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "stack_bowls_three",
+      "episodes": [
+        {
+          "id": "2723ac013a8309eca68e",
+          "record": "stack_bowls_three/2723ac013a8309eca68e/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "f227c8e361dd4bbcaa70",
+          "record": "stack_bowls_three/f227c8e361dd4bbcaa70/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "45c03f7a5c3b1dbd2361",
+          "record": "stack_bowls_three/45c03f7a5c3b1dbd2361/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "id": "e282ed6e282bf29a1d20",
+          "record": "stack_bowls_three/e282ed6e282bf29a1d20/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "b0916c5454cb0fe3325b",
+          "record": "stack_bowls_three/b0916c5454cb0fe3325b/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "id": "c32633173729e18f0519",
+          "record": "stack_bowls_three/c32633173729e18f0519/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": false
+        },
+        {
+          "id": "60db9e7e9b930bec292e",
+          "record": "stack_bowls_three/60db9e7e9b930bec292e/data.js",
+          "scene": null,
+          "seed": 100016,
+          "success": false
+        },
+        {
+          "id": "006df15af2896b84e700",
+          "record": "stack_bowls_three/006df15af2896b84e700/data.js",
+          "scene": null,
+          "seed": 100021,
+          "success": true
+        },
+        {
+          "id": "bd71ad1b021c6180b38f",
+          "record": "stack_bowls_three/bd71ad1b021c6180b38f/data.js",
+          "scene": null,
+          "seed": 100023,
+          "success": false
+        },
+        {
+          "id": "04a10637576ea0e80446",
+          "record": "stack_bowls_three/04a10637576ea0e80446/data.js",
+          "scene": null,
+          "seed": 100024,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "stack_bowls_two",
+      "episodes": [
+        {
+          "id": "81941c72c8622b62dcf9",
+          "record": "stack_bowls_two/81941c72c8622b62dcf9/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "ee0058624e9044802908",
+          "record": "stack_bowls_two/ee0058624e9044802908/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "ab6b754f0156a43052da",
+          "record": "stack_bowls_two/ab6b754f0156a43052da/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "a5213bdf1600a76d5e47",
+          "record": "stack_bowls_two/a5213bdf1600a76d5e47/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "1c671783dd95e095d9d0",
+          "record": "stack_bowls_two/1c671783dd95e095d9d0/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "1648279dc3150a5f2fb3",
+          "record": "stack_bowls_two/1648279dc3150a5f2fb3/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "fac593e37feced2421e6",
+          "record": "stack_bowls_two/fac593e37feced2421e6/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        },
+        {
+          "id": "be1c5d2f9f9e8033b904",
+          "record": "stack_bowls_two/be1c5d2f9f9e8033b904/data.js",
+          "scene": null,
+          "seed": 100015,
+          "success": true
+        },
+        {
+          "id": "c8c173d26d1206b67b5b",
+          "record": "stack_bowls_two/c8c173d26d1206b67b5b/data.js",
+          "scene": null,
+          "seed": 100016,
+          "success": true
+        },
+        {
+          "id": "85e05ca7aa695fe5daa5",
+          "record": "stack_bowls_two/85e05ca7aa695fe5daa5/data.js",
+          "scene": null,
+          "seed": 100019,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "stamp_seal",
+      "episodes": [
+        {
+          "id": "47c5fc43ceaa418f1ec1",
+          "record": "stamp_seal/47c5fc43ceaa418f1ec1/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "d5be80ecbdb0feb922d3",
+          "record": "stamp_seal/d5be80ecbdb0feb922d3/data.js",
+          "scene": null,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "id": "a3add5e257ed2a6be3ba",
+          "record": "stamp_seal/a3add5e257ed2a6be3ba/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "a4ac4ed7d2f76fb5d3a7",
+          "record": "stamp_seal/a4ac4ed7d2f76fb5d3a7/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "8095a013e4ac16d6a5a7",
+          "record": "stamp_seal/8095a013e4ac16d6a5a7/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "2cc070d482d62129a952",
+          "record": "stamp_seal/2cc070d482d62129a952/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "id": "0d2f0c710399d7e4286d",
+          "record": "stamp_seal/0d2f0c710399d7e4286d/data.js",
+          "scene": null,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "id": "b2f5fdf1fbe382da12fa",
+          "record": "stamp_seal/b2f5fdf1fbe382da12fa/data.js",
+          "scene": null,
+          "seed": 100012,
+          "success": true
+        },
+        {
+          "id": "2afac62db3e02c7591d4",
+          "record": "stamp_seal/2afac62db3e02c7591d4/data.js",
+          "scene": null,
+          "seed": 100013,
+          "success": true
+        },
+        {
+          "id": "c2885bdf8442779f3b35",
+          "record": "stamp_seal/c2885bdf8442779f3b35/data.js",
+          "scene": null,
+          "seed": 100015,
+          "success": true
+        }
+      ]
+    },
+    {
+      "task": "turn_switch",
+      "episodes": [
+        {
+          "id": "4381218f11f7d53480ef",
+          "record": "turn_switch/4381218f11f7d53480ef/data.js",
+          "scene": null,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "id": "2c7fd89fa02fd7d74b7d",
+          "record": "turn_switch/2c7fd89fa02fd7d74b7d/data.js",
+          "scene": null,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "id": "b6ec2cb9068858f9fe89",
+          "record": "turn_switch/b6ec2cb9068858f9fe89/data.js",
+          "scene": null,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "id": "3f1f98cfa066a55eeade",
+          "record": "turn_switch/3f1f98cfa066a55eeade/data.js",
+          "scene": null,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "id": "6fb1e0aa3b0580e82c0c",
+          "record": "turn_switch/6fb1e0aa3b0580e82c0c/data.js",
+          "scene": null,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "id": "9f14929b898e61d9d0bc",
+          "record": "turn_switch/9f14929b898e61d9d0bc/data.js",
+          "scene": null,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "id": "7568e3d820a128672661",
+          "record": "turn_switch/7568e3d820a128672661/data.js",
+          "scene": null,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "id": "333d7bff90df99d4f21e",
+          "record": "turn_switch/333d7bff90df99d4f21e/data.js",
+          "scene": null,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "id": "6bc7f1495ac5d29bd1c4",
+          "record": "turn_switch/6bc7f1495ac5d29bd1c4/data.js",
+          "scene": null,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "id": "471a6577e14fe8b2cfb0",
+          "record": "turn_switch/471a6577e14fe8b2cfb0/data.js",
+          "scene": null,
+          "seed": 100010,
+          "success": true
+        }
+      ]
+    }
+  ]
+}

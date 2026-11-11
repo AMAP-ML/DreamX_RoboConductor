@@ -1,0 +1,85 @@
+DreamX-RoboConductor Non-Commercial Research and Personal Use License
+Version 1.0 — November 10, 2026
+SPDX-License-Identifier: LicenseRef-DreamX-RoboConductor-NonCommercial
+
+Copyright 2026 RoboConductor contributors
+
+1. Scope
+
+This license applies to project-owned software, documentation, configuration,
+tests, and synthetic examples distributed with this license (the "Work"), to
+the extent the applicable copyright holders have authority to license them.
+"Licensor" means those copyright holders. Third-party components and real
+experimental datasets, recordings, images, videos, model weights, and other
+media are excluded unless their rights holder expressly applies this license
+to them. Their separate terms and notices continue to apply.
+
+2. Permitted purposes and grant
+
+Subject to this license, Licensor grants you a worldwide, non-exclusive,
+royalty-free copyright license to use, reproduce, study, modify, display, and
+distribute the Work and your modifications solely for:
+
+(a) non-commercial academic research, scientific evaluation, reproducibility,
+    and teaching; or
+(b) personal non-commercial learning, experimentation, and hobby projects.
+
+"Non-commercial" means not primarily intended for or directed toward
+commercial advantage or monetary compensation. Academic or personal status
+alone does not make an otherwise commercial activity permitted. Publishing
+research findings and sharing research code without commercial exploitation
+of the Work are permitted. Ordinary academic salaries and research grants do
+not, by themselves, make academic research commercial; product development
+for a commercial beneficiary remains outside the permitted purposes.
+
+3. Commercial use prohibited
+
+Commercial use is not permitted under this license. It includes selling,
+licensing for a fee, or monetizing the Work or its derivatives; incorporating
+or operating them in commercial products, paid services, advertising-supported
+services, or consulting deliverables; and internal development, training,
+evaluation, or deployment directed toward a commercial product or service.
+Personal use for commercial advantage is also prohibited. Any use outside
+Section 2 requires a separate written license from the applicable rights
+holders; this license does not grant such permission.
+
+4. Redistribution and modifications
+
+You may share the Work or modified versions only for the purposes in Section 2.
+You must include this license and NOTICE, preserve applicable copyright and
+third-party notices, identify your modifications, and ensure recipients receive
+the same non-commercial restrictions on the Work and derivatives. You may not
+relicense them in a way that permits commercial use. These requirements do not
+change the licenses of independent third-party components.
+
+5. Reserved rights
+
+All rights not expressly granted are reserved. No trademark or endorsement
+rights are granted. No express patent license is granted by this license.
+
+6. Termination
+
+The permissions granted by this license terminate automatically if you breach
+its terms. Following termination, you must cease exercising those permissions
+unless the applicable rights holder reinstates them in writing.
+
+7. Disclaimer and limitation of liability
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE,
+AND NON-INFRINGEMENT. TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR
+AND CONTRIBUTORS ARE NOT LIABLE FOR CLAIMS, DAMAGES, OR OTHER LIABILITY
+ARISING FROM THE WORK OR ITS USE.
+
+8. Earlier versions and separate licenses
+
+This license governs copies distributed under it. It does not revoke or
+restrict rights already validly granted under Apache License 2.0 or another
+license for earlier copies, and does not override third-party license terms
+or separate written agreements.
+
+9. License classification
+
+This is a source-available license with field-of-use restrictions. It is not
+an OSI-approved open-source license and must not be described as Apache-2.0,
+MIT, or another permissive license. The English text is authoritative.

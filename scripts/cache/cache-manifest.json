@@ -1,0 +1,8 @@
+{
+ "transport": "HTTPS or SSH-tunneled localhost",
+ "sha256": {
+  "catalog.js": "e4725c40e1611136bc251684fa603aad6afd3aae126e0d501a8564af1900cd5f",
+  "episode-741b3424896812a02b42.js": "d0f94f1fc43a3f966b30819dc4f8138e59f2c08e7195ee0e895a25a8d49ba053",
+  "evaluation-provenance.json": "4605bb8ef1e51d2a86a328a71c05eeb512d243a24ecb35abdca463d9b2dec009"
+ }
+}

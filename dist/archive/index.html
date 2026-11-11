@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f7f5ef">
+<title>DreamX-RoboConductor · Experiments</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css?v=archivefixed1">
+<link rel="stylesheet" href="../assets/i18n.css?v=labels22">
+<script src="../assets/i18n-common.js?v=future-nav1" defer></script>
+<script src="../assets/i18n-archive.js?v=dreamx1" defer></script>
+<script src="../assets/i18n.js?v=lang1" defer></script>
+<script src="catalog.js?v=separate-datasets1" defer></script>
+<script src="frames.js" defer></script>
+<script src="../assets/content-safety.js?v=content1" defer></script>
+<script src="../assets/episode-language.js?v=en1" defer></script>
+<script src="app.js?v=paper-names-20261110" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to experiments</a>
+<header class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="../" aria-label="DreamX-RoboConductor project">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9"/><path d="M7.5 22.5c4.5-1 8.2-4.6 10.4-10.1"/><circle cx="20.6" cy="9.2" r="2.4"/><path class="faint" d="M9 25.5h14"/></svg>
+      <span>DreamX-RoboConductor</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="../#method">Introduction</a>
+      <a href="../#simulation">Videos</a>
+      <a href="../#results">Results</a>
+      <a href="../#case-study">Case study</a>
+      <a href="../#future-work">Future Work</a>
+      <a href="./" aria-current="page">Experiments</a>
+    </nav>
+  </div>
+</header>
+<aside class="sidebar" aria-label="Platform and task navigation">
+  <div class="nav-label">Platform</div>
+  <nav id="platform-list" class="platform-list" aria-label="Evaluation platforms"></nav>
+  <div class="archive-overview">
+    <div id="overall-rate" class="overall-rate">—<span>Success rate</span></div>
+    <div id="overall-count" class="muted">Loading results…</div>
+    <div id="overall-bar" class="rate-bar" aria-hidden="true"></div>
+  </div>
+  <div class="nav-label"><span>Tasks</span><span id="task-count"></span></div>
+  <div class="search-wrap">
+    <span class="search-icon" aria-hidden="true"></span>
+    <input id="task-search" type="search" placeholder="Search tasks…" aria-label="Search tasks">
+  </div>
+  <nav id="task-list" class="task-list" aria-label="Task list"></nav>
+</aside>
+<main id="main" class="main" tabindex="-1">
+  <div class="workspace">
+    <section class="platform-hero" aria-labelledby="platform-name">
+      <div class="platform-intro">
+        <div id="platform-kind" class="eyebrow">Experiments</div>
+        <h2 id="platform-name">RoboTwin 2.0</h2>
+      </div>
+      <div class="platform-stats" aria-label="Platform archive size">
+        <div><strong id="platform-tasks">—</strong><span>Tasks</span></div>
+        <div><strong id="platform-episodes">—</strong><span>Episodes</span></div>
+      </div>
+    </section>
+    <div id="global-alert" class="alert hidden" role="alert"></div>
+    <section class="episode-nav" aria-label="Select an episode">
+      <div class="section-heading">
+        <h2>Episodes</h2>
+        <span id="task-rate" class="muted"></span>
+      </div>
+      <div id="episode-list" class="episode-list"></div>
+    </section>
+    <div id="loading" class="loading hidden" role="status">Loading episode…</div>
+    <article id="episode-content" class="hidden">
+      <section class="episode-heading">
+        <div class="title-row">
+          <div><div id="episode-label" class="eyebrow"></div><h1 id="episode-title"></h1></div>
+          <span id="episode-status" class="badge"></span>
+        </div>
+        <p id="instruction" class="instruction"></p>
+        <div id="episode-facts" class="episode-facts"></div>
+        <details class="episode-metadata">
+          <summary>Episode metadata</summary>
+          <div id="metadata" class="metadata"></div>
+        </details>
+      </section>
+      <section class="replay-card" aria-label="Camera snapshot replay">
+        <div class="replay-header">
+          <h2>Observation replay</h2>
+          <span class="snapshot-label">Decision snapshots · not real-time</span>
+        </div>
+        <div id="camera-grid" class="cameras">
+          <figure id="head-camera-panel" class="camera camera-head">
+            <div class="camera-caption"><span>HEAD CAMERA</span></div>
+            <div class="image-wrap">
+              <img id="head-camera" alt="Head camera observation" decoding="async">
+              <div class="image-placeholder">No image</div>
+            </div>
+          </figure>
+          <div class="wrist-cameras">
+            <figure id="left-camera-panel" class="camera">
+              <div class="camera-caption"><span>LEFT WRIST</span></div>
+              <div class="image-wrap">
+                <img id="left-camera" alt="Left wrist observation" decoding="async">
+                <div class="image-placeholder">No image</div>
+              </div>
+            </figure>
+            <figure id="right-camera-panel" class="camera">
+              <div class="camera-caption"><span>RIGHT WRIST</span></div>
+              <div class="image-wrap">
+                <img id="right-camera" alt="Right wrist observation" decoding="async">
+                <div class="image-placeholder">No image</div>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <div class="playback">
+          <div class="timeline-label"><span id="step-label">—</span><span id="step-event" class="muted"></span></div>
+          <input id="timeline" type="range" min="0" max="0" value="0" aria-label="Replay turn">
+          <div class="playback-controls">
+            <div class="button-group">
+              <button id="previous-step" class="icon-button" title="Previous turn (←)" aria-label="Previous turn">←</button>
+              <button id="play" class="play-button" title="Play / pause (space)" aria-label="Play snapshots">▶<span>Play</span></button>
+              <button id="next-step" class="icon-button" title="Next turn (→)" aria-label="Next turn">→</button>
+            </div>
+            <label class="speed-label">Speed <select id="speed" aria-label="Playback speed">
+              <option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option>
+            </select></label>
+          </div>
+        </div>
+      </section>
+      <section class="trace-section" aria-labelledby="trace-title">
+        <div class="section-heading"><h2 id="trace-title">Agent conversation</h2></div>
+        <details id="trace-summary-panel" class="trace-summary-panel hidden">
+          <summary>Episode summary</summary>
+          <div id="trace-summary" class="trace-summary"></div>
+        </details>
+        <div class="trace-layout">
+          <nav id="step-list" class="step-list" aria-label="Turn timeline"></nav>
+          <div id="step-detail" class="step-detail"></div>
+        </div>
+      </section>
+      <section id="token-usage" class="token-usage" aria-label="Token usage"></section>
+      <section class="manual-section">
+        <details id="manual-panel" open>
+          <summary><h2>Task manual</h2><span class="collapse-icon" aria-hidden="true">⌄</span></summary>
+          <div class="manual-body">
+            <div id="manual-text" class="manual-text"></div>
+            <div id="manual-media" class="manual-media"></div>
+          </div>
+        </details>
+      </section>
+      <div id="episode-warnings" class="alert hidden"></div>
+    </article>
+    <footer class="page-footer"><span>DreamX-RoboConductor · Experiments</span><a href="../">Project overview →</a></footer>
+  </div>
+</main>
+</body>
+</html>

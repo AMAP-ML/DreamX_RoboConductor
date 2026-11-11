@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DreamX-RoboConductor: Specify the Task, Let the Agent Control the Robot</title>
+<meta name="description" content="DreamX-RoboConductor combines explicit task context with a robot interaction harness, leaving online manipulation decisions to the agent.">
+<meta name="theme-color" content="#f7f5ef">
+<meta property="og:title" content="DreamX-RoboConductor: Specify the Task, Let the Agent Control the Robot">
+<meta property="og:description" content="Explicit task context, basic actions, and closed-loop agent control on physical robots and in simulation.">
+<meta property="og:image" content="media/hero.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="data/page-data.json?v=paper-names-20261110" as="fetch" crossorigin>
+<script src="assets/page-entry.js?v=uifix1"></script>
+<link rel="stylesheet" href="assets/app.css?v=no-authors1">
+<link rel="stylesheet" href="assets/walkthrough.css?v=trace1">
+<link rel="stylesheet" href="assets/method-v2.css?v=compact-captions1">
+<link rel="stylesheet" href="assets/comparison.css?v=1">
+<link rel="stylesheet" href="assets/i18n.css?v=labels22">
+<script src="assets/i18n-common.js?v=future-nav1" defer></script>
+<script src="assets/i18n-home.js?v=no-authors1" defer></script>
+<script src="assets/i18n.js?v=lang1" defer></script>
+<script src="assets/video-player.js?v=media-recovery-20261109" defer></script>
+<script src="assets/content-safety.js?v=content1" defer></script>
+<script src="assets/episode-language.js?v=en1" defer></script>
+<script src="assets/app.js?v=paper-names-20261110" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#results">Skip to results</a>
+<header class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top" aria-label="DreamX-RoboConductor, back to top">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9"/><path d="M7.5 22.5c4.5-1 8.2-4.6 10.4-10.1"/><circle cx="20.6" cy="9.2" r="2.4"/><path class="faint" d="M9 25.5h14"/></svg>
+      <span>DreamX-RoboConductor</span>
+    </a>
+    <nav aria-label="Sections">
+      <a href="#method">Introduction</a>
+      <a href="#simulation">Videos</a>
+      <a href="#results">Results</a>
+      <a href="#case-study">Case study</a>
+      <a href="#future-work">Future Work</a>
+      <a href="archive/">Experiments</a>
+    </nav>
+  </div>
+</header>
+<p class="site-updated"><span>Last updated:</span> <time data-bind="updatedAt">2026-10-27</time></p>
+<main id="top">
+  <section class="hero" aria-labelledby="title">
+    <h1 id="title">DreamX-RoboConductor: Specify the Task, Let the Agent Control the Robot</h1>
+    <div class="hero-links">
+      <span class="arxiv-badge" role="link" aria-disabled="true" aria-label="arXiv · Coming soon"><span class="arxiv-label" data-i18n-skip><svg viewBox="0 0 18 18" aria-hidden="true"><path d="M4 2l10 14M14 2L4 16M8 5l3-3M7 13l3 3"/></svg>arXiv</span><span class="arxiv-status">Coming soon</span></span>
+      <span class="github-coming" role="link" aria-disabled="true" aria-label="GitHub · Coming soon"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38v-1.49c-2.23.48-2.69-.95-2.69-.95-.36-.92-.89-1.17-.89-1.17-.73-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.96 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 018 3.84c.68 0 1.36.09 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.08-1.87 3.76-3.65 3.96.29.25.54.73.54 1.48v2.21c0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg><span data-i18n-skip>GitHub</span><span class="resource-divider">/</span><span class="resource-status">Coming soon</span></span>
+    </div>
+  </section>
+
+  <section class="section method-section" id="method" aria-labelledby="method-title">
+    <p class="kicker" id="method-title">Introduction</p>
+    <div class="method-summary">
+      <p data-lang-only="en">DreamX-RoboConductor enables a <strong>general-purpose AI agent</strong> to perform robotic manipulation through <strong>explicit task specifications and a lightweight harness</strong>. Codex uses live images, robot state, and execution feedback to select actions and recover from failures, without robot-specific fine-tuning or preprogrammed manipulation skills. The system currently supports <strong>RoboTwin simulation and physical Piper robots</strong>. Using GPT-6 Astra in a <strong>zero-shot setting with no task demonstrations</strong>, it achieves <strong><span data-bind="sim.rate">82.2%</span> success across all <span data-bind="sim.tasks">50</span> RoboTwin 2.0 C2R tasks</strong>, the highest reported score among the systems compared in our technical report. On Piper, it achieves <strong><span data-bind="real.rateFixed">80.0%</span> success across <span data-bind="real.taskCount">10</span> tasks and <span data-bind="real.trials">50</span> trials</strong>, including insertion, pouring, hanging, and stacking.</p>
+      <p data-lang-only="zh" hidden>DreamX-RoboConductor 通过<strong>明确的任务规格和轻量级运行框架</strong>，让<strong>通用 AI 智能体</strong>完成机器人操作。Codex 利用实时图像、机器人状态和执行反馈选择动作，并从失败中恢复，无需针对机器人微调模型或预编程操作技能。系统目前支持<strong>RoboTwin 仿真和 Piper 真机</strong>。使用 GPT-6 Astra，在<strong>零样本且无任务示范</strong>设置下，系统在<strong>全部 <span data-bind="sim.tasks">50</span> 项 RoboTwin 2.0 C2R 任务中取得 <span data-bind="sim.rate">82.2%</span> 的成功率</strong>，是我们技术报告所比较系统中已报告的最高分数。在 Piper 上，它在<strong><span data-bind="real.taskCount">10</span> 项任务、<span data-bind="real.trials">50</span> 次试验中取得 <span data-bind="real.rateFixed">80.0%</span> 的成功率</strong>，涵盖插入、倾倒、悬挂和堆叠等操作。</p>
+    </div>
+  </section>
+
+  <section class="section experiments-section" id="simulation" aria-labelledby="simulation-title">
+    <div class="section-head compact">
+      <p class="kicker">Videos</p>
+      <h2 id="simulation-title">Real-world and simulation episodes</h2>
+    </div>
+    <div class="episode-groups">
+      <section class="episode-group physical-group" aria-labelledby="physical-grid-title">
+        <div class="episode-group-heading"><h3 id="physical-grid-title">Real world · Piper</h3><a href="#real-world">Explore physical trials →</a></div>
+        <div class="hero-visuals" aria-label="Four real-world examples">
+      <figure class="hero-visual-card">
+        <div class="hero-media">
+          <video data-hero-kind="real-world" data-hero-episode="piper-eval-20261020-211111-c45854" id="hero-real-video" poster="media/web/piper-eval-20261020-211111-c45854-bad5ea61e5.webp" muted loop playsinline preload="none" aria-label="Place pen in holder"></video>
+          <span class="visual-tag">Real world · Piper</span>
+        </div>
+        <figcaption><b>Place pen in holder</b></figcaption>
+      </figure>
+      <figure class="hero-visual-card">
+        <div class="hero-media">
+          <video data-hero-kind="real-world" data-hero-episode="piper-eval-20261022-143830-10640d" id="hero-real-video-2" poster="media/web/piper-eval-20261022-143830-10640d-0784108232.webp" muted loop playsinline preload="none" aria-label="Hang cup"></video>
+          <span class="visual-tag">Real world · Piper</span>
+        </div>
+        <figcaption><b>Hang cup</b></figcaption>
+      </figure>
+      <figure class="hero-visual-card">
+        <div class="hero-media">
+          <video data-hero-kind="real-world" data-hero-episode="piper-eval-20261022-185403-a0821c" id="hero-real-video-3" poster="media/web/piper-eval-20261022-185403-a0821c-98b66318b8.webp" muted loop playsinline preload="none" aria-label="Stack three bowls"></video>
+          <span class="visual-tag">Real world · Piper</span>
+        </div>
+        <figcaption><b>Stack three bowls</b></figcaption>
+      </figure>
+      <figure class="hero-visual-card">
+        <div class="hero-media">
+          <video data-hero-kind="real-world" data-hero-episode="piper-eval-20261021-180253-dcda94" id="hero-real-video-4" poster="media/web/piper-eval-20261021-180253-dcda94-c7017f00e3.webp" muted loop playsinline preload="none" aria-label="Empty cup"></video>
+          <span class="visual-tag">Real world · Piper</span>
+        </div>
+        <figcaption><b>Empty cup</b></figcaption>
+      </figure>
+        </div>
+      </section>
+      <section class="episode-group simulation-group" aria-labelledby="simulation-grid-title">
+        <div class="episode-group-heading"><h3 id="simulation-grid-title">Simulation · RoboTwin 2.0</h3><a href="#results">Explore simulation results →</a></div>
+        <div class="hero-visuals" aria-label="Four simulation examples">
+      <figure class="hero-visual-card">
+        <div class="hero-media">
+          <video data-hero-kind="simulation" data-hero-episode="741b3424896812a02b42" id="hero-sim-video" poster="media/web/sim-adjust_bottle-060dc9d7d5.webp" muted loop playsinline preload="none" aria-label="Adjust the Bottle"></video>
+          <span class="visual-tag">Simulation · RoboTwin 2.0</span>
+        </div>
+        <figcaption><b>Adjust the Bottle</b></figcaption>
+      </figure>
+      <figure class="hero-visual-card">
+        <div class="hero-media">
+          <video data-hero-kind="simulation" data-hero-episode="0a603c45f6b4f7646345" id="hero-sim-video-2" poster="media/web/sim-beat_block_hammer-dddf07e555.webp" muted loop playsinline preload="none" aria-label="Hammer the Block"></video>
+          <span class="visual-tag">Simulation · RoboTwin 2.0</span>
+        </div>
+        <figcaption><b>Hammer the Block</b></figcaption>
+      </figure>
+      <figure class="hero-visual-card">
+        <div class="hero-media">
+          <video data-hero-kind="simulation" data-hero-episode="fa421055159142835003" id="hero-sim-video-3" poster="media/web/sim-open_microwave-583bced31b.webp" muted loop playsinline preload="none" aria-label="Open the Microwave"></video>
+          <span class="visual-tag">Simulation · RoboTwin 2.0</span>
+        </div>
+        <figcaption><b>Open the Microwave</b></figcaption>
+      </figure>
+      <figure class="hero-visual-card">
+        <div class="hero-media">
+          <video data-hero-kind="simulation" data-hero-episode="a5c5236c00c615c7fafd" id="hero-sim-video-4" poster="media/web/sim-handover_mic-4f41af0ee2.webp" muted loop playsinline preload="none" aria-label="Pass the Microphone"></video>
+          <span class="visual-tag">Simulation · RoboTwin 2.0</span>
+        </div>
+        <figcaption><b>Pass the Microphone</b></figcaption>
+      </figure>
+        </div>
+      </section>
+    </div>
+    <a class="archive-callout" href="archive/">
+      <span><b>Explore the complete experiment archive</b><small><span data-bind="sim.trials">500</span> RoboTwin trials + <span data-bind="real.trials">50</span> Piper trials · replay and full agent sessions</small></span>
+      <span aria-hidden="true">Open Experiments →</span>
+    </a>
+
+  </section>
+
+
+
+  <section class="section results-section" id="results" aria-labelledby="results-title">
+    <div class="section-head compact">
+      <p class="kicker" id="results-title">Core results</p>
+    </div>
+
+
+    <div class="result-spotlight" role="group" aria-label="Select trial results">
+      <button type="button" class="result-card primary-result" data-results-kind="real-world" aria-pressed="true" aria-expanded="true" aria-controls="results-matrix" aria-label="Show real-world trial results">
+        <span class="card-label">Real world · Piper</span>
+        <strong data-bind="real.rate">80.0%</strong>
+        <span class="card-detail"><span data-bind="real.successes">40</span> / <span data-bind="real.confirmedTrials">50</span> operator-confirmed successes</span>
+        <span class="result-bar"><span class="real-fill"></span></span>
+        <small><span data-bind="real.taskCount">10</span> tasks · <span data-bind="real.trials">50</span> trials · physical robot</small>
+        <span class="card-action">View trials <span aria-hidden="true">↓</span></span>
+      </button>
+      <button type="button" class="result-card" data-results-kind="simulation" aria-pressed="false" aria-expanded="false" aria-controls="results-matrix" aria-label="Show simulation trial results">
+        <span class="card-label">Simulation · RoboTwin 2.0</span>
+        <strong data-bind="sim.rate">82.2%</strong>
+        <span class="card-detail"><span data-bind="sim.successes">411</span> / <span data-bind="sim.trials">500</span> successful trials</span>
+        <span class="result-bar"><span class="simulation-fill"></span></span>
+        <small>50 tasks · official evaluator · 10 trials each</small>
+        <span class="card-action">View trials <span aria-hidden="true">↓</span></span>
+      </button>
+    </div>
+
+    <details class="matrix-details" id="results-matrix" open>
+      <summary><span><b id="matrix-title" aria-live="polite">All 50 real-world trials</b><small id="matrix-description">10 tasks × 5 trials · 40 successes</small></span><span aria-hidden="true">View matrix ↓</span></summary>
+      <figure class="matrix-figure">
+        <div class="matrix-toolbar">
+          <div class="segmented" role="group" aria-label="Sort tasks">
+            <button type="button" data-sort="rate" aria-pressed="true">By success rate</button>
+            <button type="button" data-sort="name" aria-pressed="false">A–Z</button>
+          </div>
+          <label class="toggle"><input type="checkbox" id="matrix-imperfect"> Hide perfect tasks</label>
+          <div class="legend" aria-hidden="true"><span><i class="cell ok"></i>Success</span><span><i class="cell fail"></i>Failure</span><span id="matrix-pending-legend" hidden><i class="cell pending"></i>Pending</span></div>
+        </div>
+        <div class="matrix" id="trial-matrix" role="list" aria-label="Real-world trials by task"><p class="placeholder">Loading trials…</p></div>
+        <div class="matrix-tip" id="matrix-tip" role="status" hidden></div>
+        <figcaption>Select any trial to open its complete episode.</figcaption>
+      </figure>
+    </details>
+  <section class="comparison-section" id="comparison" aria-label="Benchmark comparison">
+    <figure class="comparison-figure">
+      <picture>
+        <source media="(max-width: 640px)" srcset="media/comparison/c2r-comparison-mobile.svg?v=codex-label1">
+        <img src="media/comparison/c2r-comparison.svg?v=codex-label1" width="2469" height="1901" loading="lazy" alt="Reported RoboTwin C2R success rates: DreamX-RoboConductor 82.2%, GO-3 Nano Preview 81.5%, PrismWAM 75.5%, and the remaining comparison methods.">
+      </picture>
+      <figcaption><a href="media/comparison/c2r-comparison.svg?v=codex-label1" target="_blank" rel="noopener">Full-size figure ↗</a></figcaption>
+    </figure>
+    <details class="comparison-details">
+      <summary>Comparison settings and values</summary>
+      <ul><li>Full set means joint benchmark training on 50 tasks with 50 clean demonstrations per task; pretraining data are not counted.</li><li>0-shot / 1-shot denotes task demonstrations supplied in context. DreamX-RoboConductor additionally receives a task manual.</li><li>HarnessVLA uses frozen LingBot-VLA; Full set refers to its backbone training data.</li><li>RoboDawn and DreamX-RoboConductor use 10 trials per task; the additional official co-train entries use 100. PrismWAM* also requires observed depth.</li></ul>
+      <div class="table-wrap"><table class="comparison-table"><thead><tr><th scope="col">Method</th><th scope="col">Task data / context</th><th scope="col">SR (%)</th></tr></thead><tbody>
+<tr class="comparison-ours"><th scope="row" data-i18n-skip>DreamX-RoboConductor (Codex)</th><td>0-shot</td><td>82.2</td></tr>
+<tr><th scope="row" data-i18n-skip>GO-3 Nano Preview</th><td>Full set</td><td>81.5</td></tr>
+<tr><th scope="row" data-i18n-skip>PrismWAM*</th><td>Full set</td><td>75.5</td></tr>
+<tr><th scope="row" data-i18n-skip>CloudRobo-WM</th><td>Full set</td><td>75.0</td></tr>
+<tr><th scope="row" data-i18n-skip>RoboDawn (GPT-6 Astra)</th><td>1-shot</td><td>73.6</td></tr>
+<tr><th scope="row" data-i18n-skip>RoboDawn (Gemini-3.8-Flash)</th><td>1-shot</td><td>62.2</td></tr>
+<tr><th scope="row" data-i18n-skip>HarnessVLA (Claude Code)</th><td>Full set</td><td>58.4</td></tr>
+<tr><th scope="row" data-i18n-skip>HarnessVLA (Codex)</th><td>Full set</td><td>58.0</td></tr>
+<tr><th scope="row" data-i18n-skip>RoboDawn (GPT-6 Astra)</th><td>0-shot</td><td>53.2</td></tr>
+<tr><th scope="row" data-i18n-skip>LingBot-VLA</th><td>Full set</td><td>50.4</td></tr>
+<tr><th scope="row" data-i18n-skip>RoboDawn (Gemini-3.8-Flash)</th><td>0-shot</td><td>47.0</td></tr>
+<tr><th scope="row" data-i18n-skip>π0.5</th><td>Full set</td><td>46.0</td></tr>
+<tr><th scope="row" data-i18n-skip>X-WAM</th><td>Full set</td><td>25.8</td></tr>
+<tr><th scope="row" data-i18n-skip>X-VLA</th><td>Full set</td><td>20.9</td></tr>
+<tr><th scope="row" data-i18n-skip>GR00T-1.7</th><td>Full set</td><td>20.7</td></tr>
+<tr><th scope="row" data-i18n-skip>Xiaomi-Robotics-0</th><td>Full set</td><td>18.2</td></tr>
+<tr><th scope="row" data-i18n-skip>GalaxeaVLA</th><td>Full set</td><td>12.7</td></tr>
+<tr><th scope="row" data-i18n-skip>StarVLA</th><td>Full set</td><td>10.6</td></tr>
+<tr><th scope="row" data-i18n-skip>FastWAM</th><td>Full set</td><td>1.9</td></tr>
+      </tbody></table></div>
+      <a class="comparison-data" href="data/method-comparison.json" target="_blank" rel="noopener">Comparison data (JSON)</a>
+    </details>
+  </section>
+
+    <details class="setup-details">
+      <summary>Evaluation setup</summary>
+      <div class="table-wrap">
+        <table class="setup-table">
+          <colgroup><col class="setup-setting"><col class="setup-platform"><col class="setup-platform"></colgroup>
+          <thead><tr><th scope="col">Setting</th><th scope="col">Real world · Piper</th><th scope="col">Simulation · RoboTwin 2.0</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Platform</th><td>Piper, single arm</td><td>RoboTwin 2.0, dual-arm</td></tr>
+            <tr><th scope="row">Tasks</th><td><span data-bind="real.taskCount">10</span> tasks</td><td>50 tasks</td></tr>
+            <tr><th scope="row">Trials</th><td><span data-bind="real.trials">50</span> trials</td><td><span data-bind="sim.trials">500</span> trials</td></tr>
+            <tr><th scope="row">Observations</th><td>External + wrist cameras</td><td>Head + two wrist cameras</td></tr>
+            <tr><th scope="row">Agent</th><td>GPT-6 Astra · xhigh</td><td>GPT-6 Astra · xhigh</td></tr>
+            <tr><th scope="row">Scoring</th><td>Operator confirmation</td><td>Official RoboTwin evaluator</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </section>
+
+
+
+
+  <section class="section case-section" id="case-study" aria-labelledby="case-title">
+    <div class="section-head case-head">
+      <div><p class="kicker" id="case-title">Anatomy of an episode</p></div>
+      <div class="case-meta"><p>RoboTwin · <code>adjust_bottle</code> · seed 100000 · success at turn 8</p><a id="wt-full-session" class="case-full-session" href="archive/#/platforms/robotwin/tasks/adjust_bottle/episodes/741b3424896812a02b42">Open full episode ↗</a></div>
+    </div>
+    <figure class="walkthrough" id="walkthrough">
+      <div class="wt-grid">
+        <article class="manual-card" aria-labelledby="manual-title">
+          <header><span class="doc-icon" aria-hidden="true"></span><div><h3 id="manual-title">Task manual</h3><p>Generated before execution</p></div></header>
+          <dl class="manual-task" id="manual-task"><dt>Instruction</dt><dd>Lift the bottle with red screw cap from the table using the left arm.</dd></dl>
+          <h4>Execution tips</h4>
+          <ol class="manual-tips" id="manual-tips"></ol>
+        </article>
+        <div class="wt-player">
+          <div id="wt-steps" class="wt-steps" role="group" aria-label="Episode steps"></div>
+          <div class="wt-stage">
+            <img id="wt-image" src="media/walkthrough/0000_head_camera.jpg" alt="Head-camera observation at turn 0" width="640" height="480">
+            <span class="wt-turn" id="wt-turn" aria-live="polite">Turn 0</span>
+            <div class="segmented wt-cams" role="group" aria-label="Camera">
+              <button type="button" data-cam="head" aria-pressed="true">Head camera</button>
+              <button type="button" data-cam="wrist" aria-pressed="false">Left wrist</button>
+            </div>
+          </div>
+          <div class="wt-controls">
+            <button type="button" class="icon-button" id="wt-prev" aria-label="Previous turn"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4.5L7 10l5.5 5.5"/></svg></button>
+            <button type="button" class="icon-button play" id="wt-play" aria-label="Play episode"><span class="icon-play" aria-hidden="true"></span></button>
+            <button type="button" class="icon-button" id="wt-next" aria-label="Next turn"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 4.5L13 10l-5.5 5.5"/></svg></button>
+            <input type="range" id="wt-range" min="0" max="8" value="0" step="1" aria-label="Turn">
+            <span class="wt-count" id="wt-count">0 / 8</span>
+            <label class="wt-speed-label">Pace <select id="wt-speed" aria-label="Time per step"><option value="1500">1.5 s</option><option value="3000" selected>3 s</option><option value="5000">5 s</option></select></label>
+          </div>
+          <div id="wt-output" class="wt-output"></div>
+          <ol class="wt-log" id="wt-log" aria-label="Turn log"></ol>
+        </div>
+      </div>
+      <figcaption><b>Figure 2.</b> The manual recommends a test lift after grasping; the agent performs it at turn 6 before the larger move.</figcaption>
+    </figure>
+  </section>
+
+  <section class="section real-section" id="real-world" aria-labelledby="real-title">
+    <div class="section-head compact">
+      <p class="kicker">Real-world experiments</p>
+      <h2 id="real-title"><span data-bind="real.trials">50</span> trials on a physical Piper arm</h2>
+      <p class="section-intro"><span data-bind="real.taskCount">10</span> tasks · <span data-bind="real.successes">40</span> successes in <span data-bind="real.confirmedTrials">50</span> operator-confirmed trials.</p>
+    </div>
+    <div id="real-tasks" class="real-tasks"><p class="placeholder">Loading real-world trials…</p></div>
+  </section>
+
+  <section class="section future-section" id="future-work" aria-labelledby="future-title">
+    <div class="section-head compact"><h2 id="future-title">Future Work</h2></div>
+    <div class="method-summary">
+      <p data-lang-only="en">We plan to further develop the <strong>DreamX-RoboConductor harness</strong> and directly integrate a broader range of multimodal LLMs to investigate their capabilities in embodied control. We also aim to establish a <strong>benchmark and public leaderboard</strong> for evaluating multimodal LLMs’ perception of the physical world.</p>
+      <p data-lang-only="zh" hidden>我们计划进一步完善 <strong>DreamX-RoboConductor harness</strong>，并直接接入更广泛的多模态大语言模型，研究其具身控制能力。我们还将构建<strong>基准测试和公开排行榜</strong>，评估多模态大语言模型对物理世界的感知能力。</p>
+    </div>
+  </section>
+
+</main>
+<footer class="site-footer"><div class="footer-inner"><p><b>DreamX-RoboConductor</b> · <span data-bind="updatedAt">2026-10-22</span></p><a href="#top">Back to top ↑</a></div></footer>
+<noscript><p class="noscript">Enable JavaScript to explore the experiments.</p></noscript>
+</body>
+</html>

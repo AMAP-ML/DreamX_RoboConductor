@@ -1,0 +1,23 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {applyEnglish,loadEnglish}=require('../dist/assets/episode-language.js');
+const original={id:'episode-one',instruction:'原指令',public_summary:'原总结',manual:{sha256:'source-hash',text:'原手册',media:[{url:'media/a.png',label:'原标签'}]},steps:[{turn:0,narration:['原说明'],commands:[{op:'move',distance:2}],images:{head_camera:'frames/0.png'}}]};
+const before=JSON.stringify(original);
+const translated={id:original.id,manualSourceSha256:'source-hash',instruction:'Instruction',public_summary:'Summary',manual:{text:'Manual',media:[{label:'Label'}]},steps:[{narration:['Narration']}]};
+const en=applyEnglish(original,translated,'en');
+assert.equal(en.instruction,'Instruction');assert.equal(en.manual.text,'Manual');assert.deepEqual(en.steps[0].narration,['Narration']);
+assert.equal(en.steps[0].commands,original.steps[0].commands);assert.equal(en.steps[0].images,original.steps[0].images);assert.equal(en.manual.media[0].url,original.manual.media[0].url);
+assert.equal(JSON.stringify(original),before,'translations never mutate source text');
+assert.equal(applyEnglish(original,translated,'zh'),original,'Chinese uses the original object');
+assert.equal(applyEnglish(original,null,'en'),original);
+assert.throws(()=>applyEnglish(original,{...translated,id:'other'},'en'));
+assert.throws(()=>applyEnglish(original,{...translated,manualSourceSha256:'old'},'en'));
+assert.throws(()=>applyEnglish(original,{...translated,steps:[]},'en'));
+(async()=>{
+ let calls=0;const fetcher=async path=>{calls++;assert.equal(path,'translations/en/episode-one.json?v=1');return {ok:true,json:async()=>translated};};
+ const [a,b]=await Promise.all([loadEnglish('episode-one',undefined,fetcher),loadEnglish('episode-one',undefined,fetcher)]);assert.equal(calls,1);assert.equal(a,b);
+ await assert.rejects(loadEnglish('../escape',undefined,fetcher));assert.equal(calls,1);
+ let retries=0;const retry=async()=>{retries++;return {ok:retries>1,json:async()=>({...translated,id:'episode-two'})};};
+ await assert.rejects(loadEnglish('episode-two',undefined,retry));await loadEnglish('episode-two',undefined,retry);assert.equal(retries,2);
+ console.log('PASS EN overlays, unchanged ZH/source, frame/action preservation, source binding, cache and retry');
+})().catch(error=>{console.error(error);process.exitCode=1;});

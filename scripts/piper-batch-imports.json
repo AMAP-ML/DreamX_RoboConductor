@@ -1,0 +1,242 @@
+[
+ {
+  "record_id": "piper-eval-20261020-140343-105c58",
+  "archiveId": "c0a8263451cd9b62e805",
+  "canonical_case": "piper/discard_blackboard_eraser/scene_001/piper-eval-20261020-140343-105c58",
+  "manifestSha256": "3127857f3a443f86a253624f7da4ee89450761b6c8d3fea49bb84a48913ac468"
+ },
+ {
+  "record_id": "piper-eval-20261020-145109-9c19a7",
+  "archiveId": "84bece9249ab88129df1",
+  "canonical_case": "piper/discard_blackboard_eraser/scene_002/piper-eval-20261020-145109-9c19a7",
+  "manifestSha256": "b3065763b8d31a25db4ca87fc52525d2b32c0fca0a3fbc84a816e88bbe8ad38b"
+ },
+ {
+  "record_id": "piper-eval-20261020-153125-47018e",
+  "archiveId": "890092efb838a5d8777b",
+  "canonical_case": "piper/discard_blackboard_eraser/scene_003/piper-eval-20261020-153125-47018e",
+  "manifestSha256": "c50aed838d37946d5853e2caf14cec926504ff075970958df892d32ec1d42b1e"
+ },
+ {
+  "record_id": "piper-eval-20261020-155941-87c2be",
+  "archiveId": "afefc1095e0f32e9f1ac",
+  "canonical_case": "piper/discard_blackboard_eraser/scene_004/piper-eval-20261020-155941-87c2be",
+  "manifestSha256": "8262410accd26031f1873be3a7bb07981d0bef02d3be7677a3846caa3d7b680e"
+ },
+ {
+  "record_id": "piper-eval-20261020-162210-636ad6",
+  "archiveId": "fa990813ef69c49d1176",
+  "canonical_case": "piper/discard_blackboard_eraser/scene_005/piper-eval-20261020-162210-636ad6",
+  "manifestSha256": "8002fc51b35cb7d71e015b61c31f65a882f3588ac165bd70522468ad33cff460"
+ },
+ {
+  "record_id": "piper-eval-20261021-162217-bb68e9",
+  "archiveId": "9f74c1bac3c2f338d12f",
+  "canonical_case": "piper/empty_cup/scene_001/piper-eval-20261021-162217-bb68e9",
+  "manifestSha256": "d82682917adfaab9cbf39ac931cbcde8328f24d9e94fcf8b48a9db638f7146bf"
+ },
+ {
+  "record_id": "piper-eval-20261021-164157-8fb6bd",
+  "archiveId": "f381536332c5cfee2f7a",
+  "canonical_case": "piper/empty_cup/scene_002/piper-eval-20261021-164157-8fb6bd",
+  "manifestSha256": "44f35eef1ea8a7570be70c89c761d394d846ef3ebb6a2b390a10e450aba1aa7b"
+ },
+ {
+  "record_id": "piper-eval-20261021-171825-eed15e",
+  "archiveId": "1899eb23a2a5ac154bfa",
+  "canonical_case": "piper/empty_cup/scene_003/piper-eval-20261021-171825-eed15e",
+  "manifestSha256": "5d34fc37e3ab2ecef79559a8ca0be0bfe1974407abfb171968b3c4087b118684"
+ },
+ {
+  "record_id": "piper-eval-20261021-173932-f9a26d",
+  "archiveId": "589e68c908fe5105d500",
+  "canonical_case": "piper/empty_cup/scene_004/piper-eval-20261021-173932-f9a26d",
+  "manifestSha256": "c14530f2972e891a605c875382719b44b8fa32b884fddaf66d68fc5b6df6ec05"
+ },
+ {
+  "record_id": "piper-eval-20261021-180253-dcda94",
+  "archiveId": "3e14a85dd49765d83cd3",
+  "canonical_case": "piper/empty_cup/scene_005/piper-eval-20261021-180253-dcda94",
+  "manifestSha256": "82e60bb248b169d426b28b5520303c011fedc49b7d981c11a8ccd08532e9f493"
+ },
+ {
+  "record_id": "piper-eval-20261022-143830-10640d",
+  "archiveId": "25c81ed8da59f37f2d09",
+  "canonical_case": "piper/hang_cup/scene_001/piper-eval-20261022-143830-10640d",
+  "manifestSha256": "b0d9b06adbf3fc48577104b517dd61e16f6b74e5b34e4fc5c71f8cc90f08778d"
+ },
+ {
+  "record_id": "piper-eval-20261022-154829-e4278c",
+  "archiveId": "1ae91719c6e70587fed7",
+  "canonical_case": "piper/hang_cup/scene_002/piper-eval-20261022-154829-e4278c",
+  "manifestSha256": "c890c94f8ada80729785cfd2738c4a613a99faa4b836ac9011214d2b49a28164"
+ },
+ {
+  "record_id": "piper-eval-20261022-162140-d04e3c",
+  "archiveId": "ff80ab0a6dd4fd688ca5",
+  "canonical_case": "piper/hang_cup/scene_003/piper-eval-20261022-162140-d04e3c",
+  "manifestSha256": "319b28324b749247f3ba3c721d989c5cd3e73dc2512b8681cdbe3c683e51d191"
+ },
+ {
+  "record_id": "piper-eval-20261022-165654-9c20fa",
+  "archiveId": "bb714b6e66e00c7e4caf",
+  "canonical_case": "piper/hang_cup/scene_004/piper-eval-20261022-165654-9c20fa",
+  "manifestSha256": "147f37c4d7507df82cb7d36bea83647c1ba8587aedc45d8b912c6ad21d9bce77"
+ },
+ {
+  "record_id": "piper-eval-20261023-173217-685c17",
+  "archiveId": "83459eef02009dd83401",
+  "canonical_case": "piper/hang_cup/scene_005/piper-eval-20261023-173217-685c17",
+  "manifestSha256": "f6705ac75e2740689777ebb797869c4aa301ea05c76543b3ffb2a7c0abbafa87"
+ },
+ {
+  "record_id": "piper-eval-20261020-190458-4d433e",
+  "archiveId": "e50d6a6b254ca6690f88",
+  "canonical_case": "piper/place_gum_bottle/scene_001/piper-eval-20261020-190458-4d433e",
+  "manifestSha256": "d34d969f91a9970b8616e00c3ad7aac4997b0a188828c55661c559cc0a8d2ced"
+ },
+ {
+  "record_id": "piper-eval-20261020-192428-38efef",
+  "archiveId": "23fc085526e051a6895a",
+  "canonical_case": "piper/place_gum_bottle/scene_002/piper-eval-20261020-192428-38efef",
+  "manifestSha256": "430bb2a16afd81eeac913c5c3d08c06c545f68051d14daf516258ed9291977ab"
+ },
+ {
+  "record_id": "piper-eval-20261020-194545-151a27",
+  "archiveId": "ab22c2f99e16c5fbc5f6",
+  "canonical_case": "piper/place_gum_bottle/scene_003/piper-eval-20261020-194545-151a27",
+  "manifestSha256": "ff613189cf9386a0ecee16e52785c48fa45d82e0cb6694f97f0680fe2653670b"
+ },
+ {
+  "record_id": "piper-eval-20261020-201954-7eed9e",
+  "archiveId": "8ce140c0034c85bd55cc",
+  "canonical_case": "piper/place_gum_bottle/scene_004/piper-eval-20261020-201954-7eed9e",
+  "manifestSha256": "6ed1e0f1de4c62afed795cb755c27e99f0c4c6b644c2b5ac724127afced96016"
+ },
+ {
+  "record_id": "piper-eval-20261021-111428-f54d5f",
+  "archiveId": "9d7647344d851a094c1f",
+  "canonical_case": "piper/place_gum_bottle/scene_005/piper-eval-20261021-111428-f54d5f",
+  "manifestSha256": "aad683b8764537633491b729fd770c49938e5335738908dbf1376a6213bb7fb9"
+ },
+ {
+  "record_id": "piper-eval-20261022-181402-4a9700",
+  "archiveId": "761c70cb28dc630209ab",
+  "canonical_case": "piper/stack_three_bowls/scene_001/piper-eval-20261022-181402-4a9700",
+  "manifestSha256": "ae8afdb827895a3ea1db230c43b04abc9265a0fa3bed8163c634bc902a181868"
+ },
+ {
+  "record_id": "piper-eval-20261022-185403-a0821c",
+  "archiveId": "0aebb2da3279be73d159",
+  "canonical_case": "piper/stack_three_bowls/scene_002/piper-eval-20261022-185403-a0821c",
+  "manifestSha256": "94d60394b5be08c1c1dd56c6fc1a6e4ed9303c04fb25aaa12194ac6fa521ba55"
+ },
+ {
+  "record_id": "piper-eval-20261023-102715-059248",
+  "archiveId": "6fc99811137361f0690f",
+  "canonical_case": "piper/stack_three_bowls/scene_003/piper-eval-20261023-102715-059248",
+  "manifestSha256": "4816c06dd970d53db2494c3ed19e4d7b448f267d3b4c462ac58361b4fb51d625"
+ },
+ {
+  "record_id": "piper-eval-20261023-143746-e557d1",
+  "archiveId": "6bf79a42f571b2b2e340",
+  "canonical_case": "piper/stack_three_bowls/scene_004/piper-eval-20261023-143746-e557d1",
+  "manifestSha256": "438b06e0687210d316bf535ade83b287a2f1bb6b21921f9185c1dc7071770aed"
+ },
+ {
+  "record_id": "piper-eval-20261023-140622-ce4b1f",
+  "archiveId": "bff19a61785144a4fc4f",
+  "canonical_case": "piper/stack_three_bowls/scene_005/piper-eval-20261023-140622-ce4b1f",
+  "manifestSha256": "aba8266b2419acd205243be179f85aacc897aa2327ca717683ca018eb2aec77e"
+ },
+ {
+  "record_id": "piper-eval-20261026-191223-2f59f3",
+  "archiveId": "10b7c65b28055d99bbe6",
+  "canonical_case": "piper/lift_bottle/scene_001/piper-eval-20261026-191223-2f59f3",
+  "manifestSha256": "feab28ca337efee2ba6116cb11861696c765ef9f88f5ea0d5f2f978b385f2b12"
+ },
+ {
+  "record_id": "piper-eval-20261026-194253-34dfaf",
+  "archiveId": "8b65b04526a6079bd6b4",
+  "canonical_case": "piper/lift_bottle/scene_002/piper-eval-20261026-194253-34dfaf",
+  "manifestSha256": "938685a34bd9fa0f24086b2a97337b7cef21540b87e103f7aadd98660d067ab5"
+ },
+ {
+  "record_id": "piper-eval-20261026-200058-1db9e6",
+  "archiveId": "97d26aa079ae451364d7",
+  "canonical_case": "piper/lift_bottle/scene_003/piper-eval-20261026-200058-1db9e6",
+  "manifestSha256": "56bff771ebe165020627a3b348311a45b2bd8ce499fc22cf21a6ceb8447697ee"
+ },
+ {
+  "record_id": "piper-eval-20261026-202130-f18c2b",
+  "archiveId": "a49369b4e85d4f206bf9",
+  "canonical_case": "piper/lift_bottle/scene_004/piper-eval-20261026-202130-f18c2b",
+  "manifestSha256": "fa333cc666a972ab3ca85cc14cecbf2ebc13bc05d2e0acf918c00e6aef684e0c"
+ },
+ {
+  "record_id": "piper-eval-20261026-205306-7ad54f",
+  "archiveId": "4ab8a5460c8cb330a716",
+  "canonical_case": "piper/lift_bottle/scene_005/piper-eval-20261026-205306-7ad54f",
+  "manifestSha256": "370acad37263fe44e3a7b6a93383152b226b3a0d7f552146186150c2e5015309"
+ },
+ {
+  "record_id": "piper-eval-20261026-140749-474151",
+  "archiveId": "605c70f030f32fbe9fd8",
+  "canonical_case": "piper/place_orange/scene_001/piper-eval-20261026-140749-474151",
+  "manifestSha256": "a27b68d906e493ce8cc7a10c50a82c2f1c14707843751e7ff966e3f9533f597c"
+ },
+ {
+  "record_id": "piper-eval-20261026-143028-0ca1af",
+  "archiveId": "25c2109bd07771b4abba",
+  "canonical_case": "piper/place_orange/scene_002/piper-eval-20261026-143028-0ca1af",
+  "manifestSha256": "8ad860fb59025f18bdf2e752045a25cce61349f42a3dfb88b79ef074d25d5a5b"
+ },
+ {
+  "record_id": "piper-eval-20261026-145248-34b116",
+  "archiveId": "91c720aeca059b892561",
+  "canonical_case": "piper/place_orange/scene_003/piper-eval-20261026-145248-34b116",
+  "manifestSha256": "7f3cd6335eaa8867688b11231e30c59ebaf45f9998a4145e1ffc0b3a99265f30"
+ },
+ {
+  "record_id": "piper-eval-20261026-151524-759b25",
+  "archiveId": "51ba7565d7eed290352e",
+  "canonical_case": "piper/place_orange/scene_004/piper-eval-20261026-151524-759b25",
+  "manifestSha256": "2ce8e5f4fdc2cfe58df6c6d7425f30a28058fc3530cc708045b8e11845190f8c"
+ },
+ {
+  "record_id": "piper-eval-20261026-154203-034693",
+  "archiveId": "6c1e498575dfa358e2b6",
+  "canonical_case": "piper/place_orange/scene_005/piper-eval-20261026-154203-034693",
+  "manifestSha256": "4472b5ddc1637c34c26258548469dfa3c422e90a9fd9f52524cc9d24f621a705"
+ },
+ {
+  "record_id": "piper-eval-20261026-162831-1833e7",
+  "archiveId": "b73ecee532a138d8f716",
+  "canonical_case": "piper/pour_water/scene_001/piper-eval-20261026-162831-1833e7",
+  "manifestSha256": "c935331ac6d442d01953636f09386228b567897fe775b233993a1d3a9dcebffa"
+ },
+ {
+  "record_id": "piper-eval-20261026-170038-006497",
+  "archiveId": "56486abb1772c6865a96",
+  "canonical_case": "piper/pour_water/scene_002/piper-eval-20261026-170038-006497",
+  "manifestSha256": "0af4b2fccf5666d61873cb34678613faf9cc5e848aba5f28e5ed8c7aab0c45c5"
+ },
+ {
+  "record_id": "piper-eval-20261026-173819-2c9839",
+  "archiveId": "ec3b48e076ec16f6b17f",
+  "canonical_case": "piper/pour_water/scene_003/piper-eval-20261026-173819-2c9839",
+  "manifestSha256": "5b45fef3a65c0e0ea6437adcaf7f7ed9ca36d0c46d97a5034d9f7f75d6539ad9"
+ },
+ {
+  "record_id": "piper-eval-20261026-181246-a3c370",
+  "archiveId": "b68805af428bfde809a0",
+  "canonical_case": "piper/pour_water/scene_004/piper-eval-20261026-181246-a3c370",
+  "manifestSha256": "2699d08e4b209cb95e9c89a9b5a4a8f852f579ef88b2b492684340b108d9511f"
+ },
+ {
+  "record_id": "piper-eval-20261026-183849-575a14",
+  "archiveId": "b8138fc6d4aa3bc5d8b4",
+  "canonical_case": "piper/pour_water/scene_005/piper-eval-20261026-183849-575a14",
+  "manifestSha256": "a29e062953c0f4c3dcf108e9d1092a2c8893da39087dc280260c8ebfac74fd1c"
+ }
+]
